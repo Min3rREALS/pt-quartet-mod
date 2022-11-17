@@ -1,0 +1,1 @@
+targetRoom = big_laundry
