@@ -17,7 +17,7 @@
   "soundFile": "sfx_bleh.mp3",
   "duration": 0.339592,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
 }

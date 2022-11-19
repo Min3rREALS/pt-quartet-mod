@@ -17,7 +17,7 @@
   "soundFile": "sfx_trash.mp3",
   "duration": 1.306122,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
 }

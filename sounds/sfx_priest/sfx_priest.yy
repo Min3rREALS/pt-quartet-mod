@@ -17,7 +17,7 @@
   "soundFile": "sfx_priest.mp3",
   "duration": 1.44,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
 }
