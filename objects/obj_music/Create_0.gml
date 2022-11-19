@@ -56,6 +56,7 @@ room_arr = [
 	[street_4, mu_streetchinatown, mu_medievalsecret, true], 
 	[farm_1, mu_farm, mu_farmsecret, false], 
 	[space_1, mu_pinball, mu_pinballsecret, false], 
+	[space_5, mu_spaceplanet, mu_pinballsecret, true], 
 	[graveyard_1, mu_graveyard, mu_medievalsecret, false], 
 	[saloon_1, mu_saloon, mu_saloonsecret, false], 
 	[ufo_1, mu_ufo, mu_pinballsecret, false], 

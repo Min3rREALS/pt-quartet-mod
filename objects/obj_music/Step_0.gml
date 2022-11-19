@@ -27,9 +27,51 @@ if (prevpillar_on_camera != pillar_on_camera)
 }
 if global.panic
 {
-    if (music != mu_pizzatime && music != mu_chase && music != mu_finalescape)
+    if (music != mu_pizzatime && music != mu_chase && music != mu_freezerescape && music != mu_industrialescape && music != mu_sewerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_finalescape)
     {
         music = mu_pizzatime
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+        if (!obj_player.ispeppino)
+            music = mu_noiseescape
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+        if (string_letters(room_get_name(room)) == "space")
+            music = mu_snickchallengeend
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+        if (string_letters(room_get_name(room)) == "sewer")
+            music = mu_sewerescape
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+        if (string_letters(room_get_name(room)) == "industrial")
+            music = mu_industrialescape
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+        if (string_letters(room_get_name(room)) == "medieval")
+            music = mu_medievalescape
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+        if (string_letters(room_get_name(room)) == "freezer")
+            music = mu_freezerescape
         audio_stop_sound(musicID)
         musicID = scr_music(music)
         if (pillarmusicID != -4)

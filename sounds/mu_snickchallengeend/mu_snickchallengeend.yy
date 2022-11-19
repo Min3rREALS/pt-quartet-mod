@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mu_snickchallengeend",
-  "duration": 139.248,
+  "duration": 139.24861,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
