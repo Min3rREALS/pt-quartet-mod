@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_mach2",
+  "name": "sfx_bleh",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
-  "preload": true,
+  "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
   "type": 0,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_mach2",
-  "duration": 1.149388,
+  "soundFile": "sfx_bleh.mp3",
+  "duration": 0.339592,
   "parent": {
-    "name": "SFX",
-    "path": "folders/Sounds/SFX.yy",
+    "name": "PT Quartet",
+    "path": "PT Quartet.yyp",
   },
 }

@@ -65,6 +65,7 @@ function scr_player_knightpepslopes()
 		with (instance_create(x, y, obj_parryeffect))
 			sprite_index = spr_knightpep_downcloud
 		sprite_index = spr_knightpep_downtrust
+		scr_soundeffect(sfx_knightsword)
 		vsp = -5
 		hsp = 0
 		movespeed = 0

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_comboend",
-  "duration": 1.443,
+  "duration": 1.443628,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

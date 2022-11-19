@@ -27,6 +27,7 @@ if _transfo
 		sprite_index = spr_priest_pray
 	if (collect && ds_list_find_index(global.saveroom, id) == -1)
 	{
+		scr_soundeffect(sfx_priest)
 		ds_list_add(global.saveroom, id)
 		var val = 500
 		global.collect += val

@@ -36,6 +36,7 @@ switch state
 				sprite_index = stunfallspr
 				stunned = 20
 				boundbox = 0
+				scr_soundeffect(sfx_bleh)
 				create_particle(x, y, particle.genericpoofeffect)
 			}
 			state = 3
