@@ -10,6 +10,7 @@ switch state
 			{
 				state = states.trashjumpprep
 				sprite_index = spr_player_trashstart
+				scr_soundeffect(sfx_trash)
 				image_index = 0
 				xscale = other.image_xscale
 				other.shot = 0

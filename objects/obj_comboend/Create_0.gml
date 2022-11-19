@@ -4,6 +4,7 @@ combominus = 0
 timer_max = 1
 timer = 0
 title_index = 0
+scr_soundeffect(sfx_comboend)
 depth = (obj_particlesystem.depth - 1)
 alarm[0] = 1
 with (obj_player)

@@ -1,3 +1,3 @@
-text = "Placeholder sound effects from https://www.zapsplat.com"
+text = "Hold on BIMCH its load!!!!"
 xorigin = 0
 yorigin = 0
