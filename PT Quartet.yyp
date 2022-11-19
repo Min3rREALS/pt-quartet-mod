@@ -1933,6 +1933,7 @@
     {"id":{"name":"spr_entrancepillarpanic","path":"sprites/spr_entrancepillarpanic/spr_entrancepillarpanic.yy",},"order":7,},
     {"id":{"name":"spr_bigpillar","path":"sprites/spr_bigpillar/spr_bigpillar.yy",},"order":14,},
     {"id":{"name":"bg_foregroundblock","path":"sprites/bg_foregroundblock/bg_foregroundblock.yy",},"order":15,},
+    {"id":{"name":"mu_null","path":"sounds/mu_null/mu_null.yy",},"order":61,},
     {"id":{"name":"bg_strongcold1","path":"sprites/bg_strongcold1/bg_strongcold1.yy",},"order":0,},
     {"id":{"name":"bg_strongcold2","path":"sprites/bg_strongcold2/bg_strongcold2.yy",},"order":1,},
     {"id":{"name":"bg_strongcold3","path":"sprites/bg_strongcold3/bg_strongcold3.yy",},"order":2,},
