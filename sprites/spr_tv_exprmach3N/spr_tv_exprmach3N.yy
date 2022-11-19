@@ -71,7 +71,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "The Noise",
+    "path": "folders/Sprites/HUD/TV/The Noise.yy",
   },
 }

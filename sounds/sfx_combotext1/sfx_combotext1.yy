@@ -17,7 +17,7 @@
   "soundFile": "sfx_combotext1.mp3",
   "duration": 0.936,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
 }
