@@ -7,7 +7,7 @@
     "path": "sprites/spr_hurtbox/spr_hurtbox.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
