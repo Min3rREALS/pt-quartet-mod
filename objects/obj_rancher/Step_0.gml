@@ -56,7 +56,6 @@ if (sprite_index != scaredspr && x != targetplayer.x && state != states.pizzagob
 		if ((state == states.walk or state == states.idle) && (!scr_solid_line(targetplayer)))
 		{
 			sprite_index = spr_ranch_shoot
-			scr_soundeffect(sfx_gunshot)
 			image_index = 0
 			image_xscale = (-(sign((x - targetplayer.x))))
 			state = states.pizzagoblinthrow
