@@ -3879,6 +3879,7 @@
     {"id":{"name":"kidsparty_entrance1","path":"rooms/kidsparty_entrance1/kidsparty_entrance1.yy",},"order":0,},
     {"id":{"name":"kungfu_treasure","path":"rooms/kungfu_treasure/kungfu_treasure.yy",},"order":32,},
     {"id":{"name":"forest_escape2","path":"rooms/forest_escape2/forest_escape2.yy",},"order":24,},
+    {"id":{"name":"ancient_2","path":"rooms/ancient_2/ancient_2.yy",},"order":2,},
     {"id":{"name":"city_1","path":"rooms/city_1/city_1.yy",},"order":0,},
     {"id":{"name":"factory_secret2","path":"rooms/factory_secret2/factory_secret2.yy",},"order":23,},
     {"id":{"name":"hub_grandpizzardtowerinterior","path":"rooms/hub_grandpizzardtowerinterior/hub_grandpizzardtowerinterior.yy",},"order":9,},
@@ -6160,6 +6161,7 @@
     {"roomId":{"name":"old_baddies_rawr","path":"rooms/old_baddies_rawr/old_baddies_rawr.yy",},},
     {"roomId":{"name":"tower_0","path":"rooms/tower_0/tower_0.yy",},},
     {"roomId":{"name":"pep_pizza","path":"rooms/pep_pizza/pep_pizza.yy",},},
+    {"roomId":{"name":"ancient_2","path":"rooms/ancient_2/ancient_2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
