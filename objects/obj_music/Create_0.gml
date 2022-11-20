@@ -63,10 +63,11 @@ room_arr = [
 	[plage_entrance, mu_beach, mu_medievalsecret, false], 
 	[war_1, mu_war, mu_medievalsecret, false], 
 	[tower_finalhallway, mu_finalescape, mu_dungeonsecret, false],
-	[mansion_3, mu_mansion, mu_mansionsecret, false],
+	[mansion_3, mu_mansion, mu_medievalsecret, false],
 	[fridge_1, mu_freezer, mu_medievalsecret, false],
 	[floor2_room9, mu_forest, mu_medievalsecret, true],
     [factory_1_REMIX, mu_industrial, mu_medievalsecret, true], 
     [factory_11_REMIX, mu_factoryescape, mu_dungeonsecret, false], 
 	[ancient_1, mu_ancient, mu_medievalsecret, false],
+	[PP_room1, mu_tutorial, mu_medievalsecret, false],
 ]

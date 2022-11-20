@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_dragonlair",
-  "duration": 131.271,
+  "soundFile": "mu_dragonlair.mp3",
+  "duration": 168.43755,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

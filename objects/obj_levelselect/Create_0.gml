@@ -35,6 +35,7 @@ level_array[4][2] = ["DONT MAKE A SOUND", kidsparty_1, "kidsparty"]
 level_array[4][3] = ["WAR", war_1, "war"]
 level_array[5][0] = ["FACTORY REMIX", factory_1_REMIX, "factoryremix"]
 level_array[5][1] = ["THE ANCIENT TOWER", ancient_1, "ancient"]
+level_array[5][2] = ["OUTSIDE TEST", Titlescreen, "titlescreen"]
 level_array[6][0] = ["THE CRUMBLING TOWER OF PIZZA", tower_finalhallway, "tower"]
 
 toppin_info[0] = [0, spr_toppinshroom] // image_index, sprite
