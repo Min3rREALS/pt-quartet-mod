@@ -1,0 +1,2 @@
+targetRoom = Tutorialtrap
+targetDoor = "B"

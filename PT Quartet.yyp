@@ -3883,6 +3883,7 @@
     {"id":{"name":"city_1","path":"rooms/city_1/city_1.yy",},"order":0,},
     {"id":{"name":"factory_secret2","path":"rooms/factory_secret2/factory_secret2.yy",},"order":23,},
     {"id":{"name":"hub_grandpizzardtowerinterior","path":"rooms/hub_grandpizzardtowerinterior/hub_grandpizzardtowerinterior.yy",},"order":9,},
+    {"id":{"name":"spr_burgcourse","path":"sprites/spr_burgcourse/spr_burgcourse.yy",},"order":118,},
     {"id":{"name":"war_1","path":"rooms/war_1/war_1.yy",},"order":0,},
     {"id":{"name":"street_intro","path":"rooms/street_intro/street_intro.yy",},"order":9,},
     {"id":{"name":"space_lap","path":"rooms/space_lap/space_lap.yy",},"order":0,},
