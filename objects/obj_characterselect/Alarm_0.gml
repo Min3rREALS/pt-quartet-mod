@@ -1,6 +1,6 @@
 with (instance_create(x, y, obj_fadeout))
 {
-	obj_player1.targetRoom = tower_entrancehall
+	obj_player1.targetRoom = Titlescreen
 	obj_player1.targetDoor = "A"
 	obj_player1.state = states.comingoutdoor
 	if (global.coop == true)
