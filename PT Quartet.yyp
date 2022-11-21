@@ -145,6 +145,7 @@
     {"id":{"name":"spr_geromedoor","path":"sprites/spr_geromedoor/spr_geromedoor.yy",},"order":7,},
     {"id":{"name":"bg_war1","path":"sprites/bg_war1/bg_war1.yy",},"order":0,},
     {"id":{"name":"spr_slimestun","path":"sprites/spr_slimestun/spr_slimestun.yy",},"order":13,},
+    {"id":{"name":"ancient_secret1","path":"rooms/ancient_secret1/ancient_secret1.yy",},"order":3,},
     {"id":{"name":"spr_player_backslideland","path":"sprites/spr_player_backslideland/spr_player_backslideland.yy",},"order":27,},
     {"id":{"name":"spr_switchblock_gohappy","path":"sprites/spr_switchblock_gohappy/spr_switchblock_gohappy.yy",},"order":2,},
     {"id":{"name":"spr_slimegrabbed","path":"sprites/spr_slimegrabbed/spr_slimegrabbed.yy",},"order":7,},
@@ -6163,6 +6164,7 @@
     {"roomId":{"name":"tower_0","path":"rooms/tower_0/tower_0.yy",},},
     {"roomId":{"name":"pep_pizza","path":"rooms/pep_pizza/pep_pizza.yy",},},
     {"roomId":{"name":"ancient_2","path":"rooms/ancient_2/ancient_2.yy",},},
+    {"roomId":{"name":"ancient_secret1","path":"rooms/ancient_secret1/ancient_secret1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},

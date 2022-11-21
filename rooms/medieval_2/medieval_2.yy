@@ -105,6 +105,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9CD65F1F","properties":[],"isDnd":false,"objectId":{"name":"obj_forknight","path":"objects/obj_forknight/obj_forknight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1481.0,"y":594.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2199CD87","properties":[],"isDnd":false,"objectId":{"name":"obj_forknight","path":"objects/obj_forknight/obj_forknight.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1708.0,"y":882.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A64D3B0F","properties":[],"isDnd":false,"objectId":{"name":"obj_forknight","path":"objects/obj_forknight/obj_forknight.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1804.0,"y":882.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36118468","properties":[],"isDnd":false,"objectId":{"name":"obj_tvtrigger","path":"objects/obj_tvtrigger/obj_tvtrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":256.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4395478D","spriteId":{"name":"spr_medievaldoor3","path":"sprites/spr_medievaldoor3/spr_medievaldoor3.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1943.0,"y":244.0,},
@@ -225,6 +226,7 @@
     {"name":"inst_9CD65F1F","path":"rooms/medieval_2/medieval_2.yy",},
     {"name":"inst_2199CD87","path":"rooms/medieval_2/medieval_2.yy",},
     {"name":"inst_A64D3B0F","path":"rooms/medieval_2/medieval_2.yy",},
+    {"name":"inst_36118468","path":"rooms/medieval_2/medieval_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

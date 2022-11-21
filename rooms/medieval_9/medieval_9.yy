@@ -94,6 +94,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9334DBA6","properties":[],"isDnd":false,"objectId":{"name":"obj_doorA","path":"objects/obj_doorA/obj_doorA.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1984.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28E7491E","properties":[],"isDnd":false,"objectId":{"name":"obj_keydoor","path":"objects/obj_keydoor/obj_keydoor.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2528.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_AD9BB796","properties":[],"isDnd":false,"objectId":{"name":"obj_doorB","path":"objects/obj_doorB/obj_doorB.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":832.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E95E3BB","properties":[],"isDnd":false,"objectId":{"name":"obj_tvtrigger","path":"objects/obj_tvtrigger/obj_tvtrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20400D1B","properties":[],"isDnd":false,"objectId":{"name":"obj_tvtrigger","path":"objects/obj_tvtrigger/obj_tvtrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":288.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","tilesetId":{"name":"tile_medievaldeco","path":"tilesets/tile_medievaldeco/tile_medievaldeco.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":91,"SerialiseHeight":38,"TileCompressedData":[
 -123,0,3,180,181,182,-71,0,2,221,222,-21,0,2,220,222,-10,0,2,221,222,-21,0,2,221,222,-27,0,1,274,-15,0,4,275,276,0,297,-65,0,2,221,222,-4,0,3,294,0,278,-66,0,2,200,201,-10,0,1,202,-7,0,2,200,201,-31,0,2,200,201,-30,0,1,257,-28,0,1,298,-12,0,2,1073742164,1073742144,-45,0,1,258,-19,0,2,200,201,-22,0,
@@ -225,6 +227,8 @@
     {"name":"inst_9334DBA6","path":"rooms/medieval_9/medieval_9.yy",},
     {"name":"inst_28E7491E","path":"rooms/medieval_9/medieval_9.yy",},
     {"name":"inst_AD9BB796","path":"rooms/medieval_9/medieval_9.yy",},
+    {"name":"inst_3E95E3BB","path":"rooms/medieval_9/medieval_9.yy",},
+    {"name":"inst_20400D1B","path":"rooms/medieval_9/medieval_9.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

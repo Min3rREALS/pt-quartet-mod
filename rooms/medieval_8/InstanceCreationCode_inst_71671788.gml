@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("The sensational Forknight says he hopes that the pillar stays up so that he will be able to eat those crackers for another day!"), tvprompt.trigger, spr_tv_idleanim2, 2.5)]

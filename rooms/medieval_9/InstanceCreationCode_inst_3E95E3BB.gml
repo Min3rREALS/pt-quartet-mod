@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("Wait a minute, is that gold!? Is everything golden!?  Were rich! I'll never have to work another day at this crummy TV station!"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]

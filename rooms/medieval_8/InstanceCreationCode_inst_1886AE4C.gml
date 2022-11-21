@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("We are interviewing the viral Forknight who was caught eating on the job! He swore his guard duty to the tower, but watch has he was caught on video tuckering in on crackers!"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]

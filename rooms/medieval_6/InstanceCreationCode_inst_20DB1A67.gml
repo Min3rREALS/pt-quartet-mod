@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("It appears that we are inside a temple of paper of sort, with shelfs incasing what we can only call as some kind of paper sandwich."), tvprompt.trigger, spr_tv_idleanim1, 2.5)]
