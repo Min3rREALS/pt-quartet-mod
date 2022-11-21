@@ -47,7 +47,7 @@ function scr_player_mach3()
 			flamecloud_buffer--
 		else
 		{
-			flamecloud_buffer = 10
+			flamecloud_buffer = 0
 			with (instance_create(x, y, obj_dashcloud))
 			{
 				image_xscale = other.xscale
