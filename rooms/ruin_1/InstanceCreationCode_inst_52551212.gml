@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("Our local reporter told us that a bunch of maniacs in pizzaboxes are throwing deadly explosives, And that if you see any of these crazies then run away and hide! because that wont do shi- i mean, anything!"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]

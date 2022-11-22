@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("OH MY GOD THE PIZZAMAN JUST KILLED ONE OF THEM! That was a plot twist i was NEVER expecting in my hours of being a news person!"), tvprompt.trigger, spr_tv_exprpanic, 2.5)]

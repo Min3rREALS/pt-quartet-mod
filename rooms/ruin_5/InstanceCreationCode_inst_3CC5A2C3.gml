@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("Wait a minute... does this count as murder? if so, then the ratings are gonna shoot through the roof, we about to make big bucks baby!"), tvprompt.trigger, spr_tv_idleanim2, 2.5)]

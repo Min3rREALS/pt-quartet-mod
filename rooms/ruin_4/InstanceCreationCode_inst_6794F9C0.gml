@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("I dont know why, but i keep seeing these werid rat guys block out pizzamans path, do they mean anything? they look... uh, mentally challenged....."), tvprompt.trigger, spr_tv_idleanim1, 2.5)]
