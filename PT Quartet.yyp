@@ -411,6 +411,7 @@
     {"id":{"name":"spr_treasureguy_popout","path":"sprites/spr_treasureguy_popout/spr_treasureguy_popout.yy",},"order":5,},
     {"id":{"name":"spr_treasureguy_idle","path":"sprites/spr_treasureguy_idle/spr_treasureguy_idle.yy",},"order":4,},
     {"id":{"name":"spr_treasureguy_stun","path":"sprites/spr_treasureguy_stun/spr_treasureguy_stun.yy",},"order":6,},
+    {"id":{"name":"spr_filesign","path":"sprites/spr_filesign/spr_filesign.yy",},"order":14,},
     {"id":{"name":"spr_hamkuff_sausage","path":"sprites/spr_hamkuff_sausage/spr_hamkuff_sausage.yy",},"order":4,},
     {"id":{"name":"spr_treasureguy_escapestart","path":"sprites/spr_treasureguy_escapestart/spr_treasureguy_escapestart.yy",},"order":3,},
     {"id":{"name":"spr_treasureguy_escape","path":"sprites/spr_treasureguy_escape/spr_treasureguy_escape.yy",},"order":2,},

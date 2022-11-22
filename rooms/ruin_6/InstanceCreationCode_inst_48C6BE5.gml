@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("Wait... THATS HOW MUCH A SMALL APRTMENT COSTS!? Nevermind then, Looks like the most im getting is that beatiful snowglobe ive always wanted."), tvprompt.trigger, spr_tv_exprpanic, 2.5)]
