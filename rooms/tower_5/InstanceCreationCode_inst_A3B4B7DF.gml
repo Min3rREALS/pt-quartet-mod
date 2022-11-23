@@ -1,1 +1,1 @@
-targetRoom = tower_finalhallway
+targetRoom = top_1

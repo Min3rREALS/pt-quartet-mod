@@ -4730,6 +4730,7 @@
     {"id":{"name":"tilespr_tileset_tile_beachtest2","path":"sprites/tilespr_tileset_tile_beachtest2/tilespr_tileset_tile_beachtest2.yy",},"order":86,},
     {"id":{"name":"tileset_tile_beachtest2","path":"tilesets/tileset_tile_beachtest2/tileset_tile_beachtest2.yy",},"order":2,},
     {"id":{"name":"tilespr_tileset_beachprops1","path":"sprites/tilespr_tileset_beachprops1/tilespr_tileset_beachprops1.yy",},"order":87,},
+    {"id":{"name":"mu_top","path":"sounds/mu_top/mu_top.yy",},"order":5,},
     {"id":{"name":"tileset_beachprops1","path":"tilesets/tileset_beachprops1/tileset_beachprops1.yy",},"order":3,},
     {"id":{"name":"tilespr_tileset_beachprops2","path":"sprites/tilespr_tileset_beachprops2/tilespr_tileset_beachprops2.yy",},"order":88,},
     {"id":{"name":"tileset_beachprops2","path":"tilesets/tileset_beachprops2/tileset_beachprops2.yy",},"order":4,},

@@ -70,4 +70,5 @@ room_arr = [
     [factory_11_REMIX, mu_factoryescape, mu_dungeonsecret, false], 
 	[ancient_1, mu_ancient, mu_medievalsecret, false],
 	[PP_room1, mu_tutorial, mu_medievalsecret, false],
+	[top_1, mu_top, mu_medievalsecret, false],
 ]

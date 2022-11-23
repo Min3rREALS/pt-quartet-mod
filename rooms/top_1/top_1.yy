@@ -28,7 +28,7 @@
 1,599,-6,0,6,426,427,428,429,267,268,-3,0,4,573,0,0,572,-17,0,6,451,452,453,454,292,293,-55,0,1,
 549,-20,0,4,138,287,288,289,-5,0,1,574,-5,0,1,295,-14,0,4,163,312,313,314,-27,0,7,337,338,339,0,
 0,545,546,-23,0,7,362,363,364,0,0,570,571,-4,0,3,645,646,647,-3,0,1,268436004,-3,0,1,268436029,-5,0,1,
-268436004,-932,0,],},"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+268436004,-932,0,],},"visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"tile_saloonwooden","path":"tilesets/tile_saloonwooden/tile_saloonwooden.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":63,"TileCompressedData":[
 -9,53,21,126,102,103,104,102,103,104,102,103,104,102,103,104,102,103,104,102,103,104,102,103,-9,53,1,30,-8,0,
 2,321,322,-10,0,-9,53,1,55,-8,0,2,346,347,-10,0,-9,53,1,80,-8,0,2,371,372,-10,0,-9,53,1,
@@ -43,7 +43,7 @@
 2,4,5,6,8,-6,0,-9,53,1,80,-5,0,9,26,27,28,29,27,29,30,31,33,-6,0,-9,53,1,30,-5,
 0,9,76,77,79,77,78,79,80,56,58,-6,0,-9,53,1,55,-5,0,9,101,102,104,102,103,104,105,6,8,-6,
 0,-9,53,2,108,83,-11,0,2,31,33,-6,0,-10,53,2,108,83,-10,0,2,56,58,-6,0,-11,53,19,108,2,
-3,4,2,3,4,2,3,4,2,3,4,2,3,4,2,3,4,-60,53,-930,0,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+3,4,2,3,4,2,3,4,2,3,4,2,3,4,2,3,4,-60,53,-930,0,],},"visible":false,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_BG","tilesetId":{"name":"tile_saloonwooden","path":"tilesets/tile_saloonwooden/tile_saloonwooden.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":63,"TileCompressedData":[
 -8,0,6,169,170,171,169,170,171,-24,0,9,194,195,196,194,195,196,170,171,172,-21,0,9,219,220,221,219,220,221,
 195,196,197,-21,0,9,244,245,246,244,245,246,220,221,222,-21,0,9,169,170,171,169,170,171,245,246,247,-21,0,9,
@@ -57,7 +57,7 @@
 220,221,222,-21,0,9,169,170,171,169,170,171,245,246,247,-21,0,9,194,195,196,194,195,196,170,171,172,-10,0,2,
 184,185,-9,0,9,219,220,221,219,220,221,195,196,197,-10,0,2,209,210,-9,0,9,244,245,246,244,245,246,220,221,
 222,-9,0,1,34,-3,35,-8,0,9,169,170,171,169,170,171,245,246,247,-9,0,1,59,-3,60,-8,0,6,194,195,
-196,194,195,196,-24,0,6,219,220,221,219,220,221,-24,0,6,244,245,246,244,245,246,-946,0,],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+196,194,195,196,-24,0,6,219,220,221,219,220,221,-24,0,6,244,245,246,244,245,246,-946,0,],},"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50D91956","properties":[],"isDnd":false,"objectId":{"name":"obj_stairs","path":"objects/obj_stairs/obj_stairs.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":8.0,"scaleY":48.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D48C87CE","properties":[],"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.0,"scaleY":48.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":416.0,},

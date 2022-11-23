@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_noisejetpack",
   "spriteId": {
-    "name": "spr_playerN_doublejumpfall",
-    "path": "sprites/spr_playerN_doublejumpfall/spr_playerN_doublejumpfall.yy",
+    "name": "spr_pizzapepper",
+    "path": "sprites/spr_pizzapepper/spr_pizzapepper.yy",
   },
   "solid": false,
   "visible": true,
