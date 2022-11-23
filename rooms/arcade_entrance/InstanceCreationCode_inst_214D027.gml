@@ -1,0 +1,1 @@
+targetRoom = arcade_knight

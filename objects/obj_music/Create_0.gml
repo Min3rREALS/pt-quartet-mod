@@ -19,6 +19,7 @@ room_arr = [
 	[rm_levelselect, mu_title, mu_medievalsecret, false], 
 	[tower_entrancehall, mu_hub, mu_medievalsecret, false], 
 	[tower_3, mu_hub3, mu_medievalsecret, false], 
+	[arcade_entrance, mu_arcade, mu_medievalsecret, false], 
 	[entrance_1, mu_entrance, mu_medievalsecret, false], 
 	[dungeon_1, mu_dungeon, mu_dungeonsecret, false], 
 	[dungeon_8, mu_dungeon, mu_dungeonsecret, true], 
