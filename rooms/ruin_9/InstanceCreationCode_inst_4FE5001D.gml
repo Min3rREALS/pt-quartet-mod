@@ -1,1 +1,1 @@
-prompt_array = [tv_create_prompt(choose("Woah... look at all that cheese... swiss, cheddar, american, mozzerella... if i was lactose and tollerant id quit this job already!"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]
+prompt_array = [tv_create_prompt(choose("Woah... look at all that cheese... swiss, cheddar, american, mozzerella... if i was lactose intollerant id quit this job already!"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]

@@ -152,7 +152,7 @@ if (obj_player.state != (89 << 0))
     {
         var yy = (((i + 1) % 2) == 0 ? -5 : 0)
         var c = color_array[i]
-        pal_swap_set(201, c, 0)
+        pal_swap_set(spr_font_palette, c, 0)
         draw_text(xx, (((hud_yy - 56) + text_y) + yy), string_char_at(str, (i + 1)))
         xx += (w / num)
     }

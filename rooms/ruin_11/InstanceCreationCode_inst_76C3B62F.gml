@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("This just in! a MASSIVE heatwave is coming this way! and with all the cheese we saw throughout this pizzamans journey, it looks like its all gonna melt!"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]
