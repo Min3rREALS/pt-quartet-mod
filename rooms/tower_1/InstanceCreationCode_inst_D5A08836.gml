@@ -1,2 +1,2 @@
 targetRoom = ruin_1
-sprite_index = ruingate
+sprite_index = spr_ruingate
