@@ -5213,6 +5213,7 @@
     {"id":{"name":"cutscene_player_float","path":"scripts/cutscene_player_float/cutscene_player_float.yy",},"order":48,},
     {"id":{"name":"scr_enemy_lungeattack","path":"scripts/scr_enemy_lungeattack/scr_enemy_lungeattack.yy",},"order":16,},
     {"id":{"name":"scr_loophallway","path":"scripts/scr_loophallway/scr_loophallway.yy",},"order":30,},
+    {"id":{"name":"bathroom_1","path":"rooms/bathroom_1/bathroom_1.yy",},"order":4,},
     {"id":{"name":"scr_player_stringjump","path":"scripts/scr_player_stringjump/scr_player_stringjump.yy",},"order":162,},
     {"id":{"name":"scr_backgroundreplace","path":"scripts/scr_backgroundreplace/scr_backgroundreplace.yy",},"order":31,},
     {"id":{"name":"sfx_cheesejump","path":"sounds/sfx_cheesejump/sfx_cheesejump.yy",},"order":0,},
@@ -6198,6 +6199,7 @@
     {"roomId":{"name":"bathroom_template","path":"rooms/bathroom_template/bathroom_template.yy",},},
     {"roomId":{"name":"bathroom_2","path":"rooms/bathroom_2/bathroom_2.yy",},},
     {"roomId":{"name":"bathroom_3","path":"rooms/bathroom_3/bathroom_3.yy",},},
+    {"roomId":{"name":"bathroom_1","path":"rooms/bathroom_1/bathroom_1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
