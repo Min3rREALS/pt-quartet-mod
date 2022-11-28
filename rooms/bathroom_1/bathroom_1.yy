@@ -21,18 +21,11 @@
 415,416,-175,-2147483648,4,302,303,304,298,-132,-2147483648,2,357,358,-311,-2147483648,2,386,387,-311,-2147483648,2,415,416,-311,-2147483648,2,357,358,-311,-2147483648,2,386,387,-311,-2147483648,2,415,416,-311,-2147483648,2,357,358,-311,-2147483648,2,386,387,-311,-2147483648,2,415,416,-85208,-2147483648,],},"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4B154B92","spriteId":{"name":"toliert","path":"sprites/toliert/toliert.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7608.0,"y":570.0,},
 =======
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4B154B92","spriteId":{"name":"toliert","path":"sprites/toliert/toliert.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7608.0,"y":569.0,},
 >>>>>>> parent of cca1bdd9 (Organizing)
 =======
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4B154B92","spriteId":{"name":"toliert","path":"sprites/toliert/toliert.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7608.0,"y":569.0,},
->>>>>>> parent of cca1bdd9 (Organizing)
-=======
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4B154B92","spriteId":{"name":"toliert","path":"sprites/toliert/toliert.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7608.0,"y":569.0,},
->>>>>>> parent of cca1bdd9 (Organizing)
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1950ADCB","spriteId":{"name":"spr_uparrow","path":"sprites/spr_uparrow/spr_uparrow.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":-1.0,"animationSpeed":0.35,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7680.0,"y":576.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","instances":[
