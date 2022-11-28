@@ -17,7 +17,7 @@
   ],
   "layers": [
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4B154B92","spriteId":{"name":"toliert","path":"sprites/toliert/toliert.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7608.0,"y":569.0,},
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4B154B92","spriteId":{"name":"spr_toliert","path":"sprites/spr_toliert/spr_toliert.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7608.0,"y":569.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1950ADCB","spriteId":{"name":"spr_uparrow","path":"sprites/spr_uparrow/spr_uparrow.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":-1.0,"animationSpeed":0.35,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7680.0,"y":576.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","instances":[
