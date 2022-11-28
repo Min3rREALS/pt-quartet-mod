@@ -195,6 +195,7 @@
     {"id":{"name":"spr_pepperman_charge","path":"sprites/spr_pepperman_charge/spr_pepperman_charge.yy",},"order":2,},
     {"id":{"name":"spr_peppermanlow_stun","path":"sprites/spr_peppermanlow_stun/spr_peppermanlow_stun.yy",},"order":22,},
     {"id":{"name":"spr_peppermanlow_hurt","path":"sprites/spr_peppermanlow_hurt/spr_peppermanlow_hurt.yy",},"order":21,},
+    {"id":{"name":"obj_bigcheeseOLD","path":"objects/obj_bigcheeseOLD/obj_bigcheeseOLD.yy",},"order":63,},
     {"id":{"name":"spr_peppermanlow_charge","path":"sprites/spr_peppermanlow_charge/spr_peppermanlow_charge.yy",},"order":20,},
     {"id":{"name":"spr_peppermanlow","path":"sprites/spr_peppermanlow/spr_peppermanlow.yy",},"order":19,},
     {"id":{"name":"spr_pepperman","path":"sprites/spr_pepperman/spr_pepperman.yy",},"order":0,},
@@ -5182,6 +5183,7 @@
     {"id":{"name":"scr_player_bombdelete","path":"scripts/scr_player_bombdelete/scr_player_bombdelete.yy",},"order":151,},
     {"id":{"name":"scr_vigilante","path":"scripts/scr_vigilante/scr_vigilante.yy",},"order":3,},
     {"id":{"name":"scr_player_jetpackjump","path":"scripts/scr_player_jetpackjump/scr_player_jetpackjump.yy",},"order":152,},
+    {"id":{"name":"bathroom_3","path":"rooms/bathroom_3/bathroom_3.yy",},"order":3,},
     {"id":{"name":"scr_player_debugstate","path":"scripts/scr_player_debugstate/scr_player_debugstate.yy",},"order":153,},
     {"id":{"name":"scr_player_cheesepepfling","path":"scripts/scr_player_cheesepepfling/scr_player_cheesepepfling.yy",},"order":154,},
     {"id":{"name":"scr_player_bee","path":"scripts/scr_player_bee/scr_player_bee.yy",},"order":155,},
@@ -6197,6 +6199,7 @@
     {"roomId":{"name":"bathroom_template","path":"rooms/bathroom_template/bathroom_template.yy",},},
     {"roomId":{"name":"bathroom_1","path":"rooms/bathroom_1/bathroom_1.yy",},},
     {"roomId":{"name":"bathroom_2","path":"rooms/bathroom_2/bathroom_2.yy",},},
+    {"roomId":{"name":"bathroom_3","path":"rooms/bathroom_3/bathroom_3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},

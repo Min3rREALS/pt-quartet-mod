@@ -56,6 +56,13 @@ if global.panic
         if (pillarmusicID != -4)
             audio_stop_sound(pillarmusicID)
         pillarmusicID = -4
+	    if (string_letters(room_get_name(room)) == "bathroom")
+            music = mu_sewerescape
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
         if (string_letters(room_get_name(room)) == "industrial")
             music = mu_industrialescape
         audio_stop_sound(musicID)
