@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("This is PTV here to annouce that there is a civil and action packed play that is going to go on TONIGHT at 10pm, dont miss it!"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]

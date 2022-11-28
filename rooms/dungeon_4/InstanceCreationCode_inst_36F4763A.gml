@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("wait... did that say pencer? if so then that is one funny typo for fencer, i hope the idiot that did that got fired for that blunder!"), tvprompt.trigger, spr_tv_idleanim2, 2.5)]
