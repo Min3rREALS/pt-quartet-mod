@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("Hey! who turned out the lights? whoever did that is a dingus because now we cant get any good footage of the pizzaman! (and totally not because im afraid of the dark.)"), tvprompt.trigger, spr_tv_idleanim1, 2.5)]
