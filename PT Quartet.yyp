@@ -612,6 +612,7 @@
     {"id":{"name":"spr_player_machslideboost","path":"sprites/spr_player_machslideboost/spr_player_machslideboost.yy",},"order":208,},
     {"id":{"name":"spr_lonegustavo_jumpstart","path":"sprites/spr_lonegustavo_jumpstart/spr_lonegustavo_jumpstart.yy",},"order":16,},
     {"id":{"name":"spr_player_supersidejumpland","path":"sprites/spr_player_supersidejumpland/spr_player_supersidejumpland.yy",},"order":313,},
+    {"id":{"name":"spr_pizzaboundnpc","path":"sprites/spr_pizzaboundnpc/spr_pizzaboundnpc.yy",},"order":13,},
     {"id":{"name":"spr_pizzacar_move","path":"sprites/spr_pizzacar_move/spr_pizzacar_move.yy",},"order":3,},
     {"id":{"name":"spr_player_supersidejump","path":"sprites/spr_player_supersidejump/spr_player_supersidejump.yy",},"order":312,},
     {"id":{"name":"spr_player_supersidejumpprep","path":"sprites/spr_player_supersidejumpprep/spr_player_supersidejumpprep.yy",},"order":314,},
@@ -5018,7 +5019,6 @@
     {"id":{"name":"scr_player_tackle","path":"scripts/scr_player_tackle/scr_player_tackle.yy",},"order":104,},
     {"id":{"name":"scr_player_ladder","path":"scripts/scr_player_ladder/scr_player_ladder.yy",},"order":105,},
     {"id":{"name":"scr_player_victory","path":"scripts/scr_player_victory/scr_player_victory.yy",},"order":106,},
-    {"id":{"name":"meatball_area_thing","path":"rooms/meatball_area_thing/meatball_area_thing.yy",},"order":2,},
     {"id":{"name":"scr_player_comingoutdoor","path":"scripts/scr_player_comingoutdoor/scr_player_comingoutdoor.yy",},"order":107,},
     {"id":{"name":"scr_player_Sjumpprep","path":"scripts/scr_player_Sjumpprep/scr_player_Sjumpprep.yy",},"order":108,},
     {"id":{"name":"scr_player_Sjump","path":"scripts/scr_player_Sjump/scr_player_Sjump.yy",},"order":109,},
@@ -6192,15 +6192,7 @@
     {"roomId":{"name":"arcade_knight","path":"rooms/arcade_knight/arcade_knight.yy",},},
     {"roomId":{"name":"arcade_firemouth","path":"rooms/arcade_firemouth/arcade_firemouth.yy",},},
     {"roomId":{"name":"arcade_rocket","path":"rooms/arcade_rocket/arcade_rocket.yy",},},
-<<<<<<< Updated upstream
     {"roomId":{"name":"bathroom_template","path":"rooms/bathroom_template/bathroom_template.yy",},},
-=======
-<<<<<<< HEAD
-    {"roomId":{"name":"meatball_area_thing","path":"rooms/meatball_area_thing/meatball_area_thing.yy",},},
-=======
-    {"roomId":{"name":"bathroom_template","path":"rooms/bathroom_template/bathroom_template.yy",},},
->>>>>>> 296bee2b12934a54cec2f9340c34e598cb1876df
->>>>>>> Stashed changes
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
@@ -6522,9 +6514,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Tile Sets/Tutorial.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"War","folderPath":"folders/Tile Sets/War.yy","order":20,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"lost tower","folderPath":"folders/Sounds/Music/lost tower.yy","order":64,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bathroom","folderPath":"folders/Rooms/Arcade/Bathroom.yy","order":5,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bathroom","folderPath":"folders/Sprites/Backgrounds/Bathroom.yy","order":46,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
