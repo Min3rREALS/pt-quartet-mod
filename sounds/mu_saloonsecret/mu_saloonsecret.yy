@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mu_saloonsecret",
-  "duration": 71.49279,
+  "duration": 71.492,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
