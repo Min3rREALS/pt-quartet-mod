@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("Appartently according to this phanplet i have here it says that this play is going to tell a story about a lone pencer that goes on a long journey, this gotta be interesting!"), tvprompt.trigger, spr_tv_idleanim2, 2.5)]

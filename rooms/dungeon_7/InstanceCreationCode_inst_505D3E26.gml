@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("Whew! thank god were outta the dark! i thought i was gonna have to turn on the nightlight tonigh- I MEAN, get fired because i was not getting any good footage of the pizzaman! heh, heh."), tvprompt.trigger, spr_tv_idleanim1, 2.5)]
