@@ -4,11 +4,11 @@ active = false
 alarm[0] = 30
 global.leveltorestart = -4
 
-world_array[0] = "WORLD 1"
-world_array[1] = "WORLD 2"
-world_array[2] = "WORLD 3"
-world_array[3] = "WORLD 4"
-world_array[4] = "WORLD 5"
+world_array[0] = "TOWER REALM"
+world_array[1] = "COSMIC WEST"
+world_array[2] = "NO VACATION CRUISE"
+world_array[3] = "21ST CENTURY EMPIRE"
+world_array[4] = "TERROR NATION"
 world_array[5] = "EXTRA"
 world_array[6] = "EXIT"
 
