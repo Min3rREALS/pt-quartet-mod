@@ -25,9 +25,15 @@ if (prevpillar_on_camera != pillar_on_camera)
 		audio_sound_gain(musicID, (0.6 * global.option_music_volume), 2000)
 	}
 }
+if (!obj_player.ispeppino && music != mu_entrance)
+{
+        music = mu_noiseentrance
+	audio_stop_sound(musicID)
+    musicID = scr_music(music)
+}
 if global.panic
 {
-    if (music != mu_pizzatime && music != mu_chase && music != mu_freezerescape && music != mu_industrialescape && music != mu_sewerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_finalescape)
+    if (music != mu_pizzatime && music != mu_chase && music != mu_industrialescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_finalescape)
     {
         music = mu_pizzatime
         audio_stop_sound(musicID)

@@ -23,7 +23,7 @@ if (obj_player1.key_jump && selected == 0 && obj_peppinoselect.sprite_index != s
     }
     with (obj_player2)
     {
-        character = "N"
+        character = "P"
         ispeppino = 0
         scr_characterspr()
         if (global.coop == 1)
@@ -42,7 +42,7 @@ if (obj_player1.key_jump && selected == 1 && obj_noiseselect.sprite_index != spr
     obj_noiseselect.image_index = 0
     with (obj_player1)
     {
-        character = "N"
+        character = "P"
         ispeppino = 0
         scr_characterspr()
     }
