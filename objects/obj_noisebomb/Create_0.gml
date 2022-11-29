@@ -12,5 +12,4 @@ with (obj_player)
 	scr_soundeffect(sfx_scream5)
 }
 sprite_index = spr_noisebomb_intro
-instance_create(x, y, obj_taunteffect)
 playerid = obj_player1
