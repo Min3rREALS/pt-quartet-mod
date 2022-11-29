@@ -3585,7 +3585,6 @@
     {"id":{"name":"spr_tv_exprmach3N","path":"sprites/spr_tv_exprmach3N/spr_tv_exprmach3N.yy",},"order":23,},
     {"id":{"name":"obj_smallnumber","path":"objects/obj_smallnumber/obj_smallnumber.yy",},"order":33,},
     {"id":{"name":"obj_cowboyhat","path":"objects/obj_cowboyhat/obj_cowboyhat.yy",},"order":5,},
-    {"id":{"name":"obj_treasureshadow","path":"objects/obj_treasureshadow/obj_treasureshadow.yy",},"order":5,},
     {"id":{"name":"obj_Opeppino","path":"objects/obj_Opeppino/obj_Opeppino.yy",},"order":26,},
     {"id":{"name":"obj_itspizzatime","path":"objects/obj_itspizzatime/obj_itspizzatime.yy",},"order":21,},
     {"id":{"name":"obj_grabmarker","path":"objects/obj_grabmarker/obj_grabmarker.yy",},"order":19,},
