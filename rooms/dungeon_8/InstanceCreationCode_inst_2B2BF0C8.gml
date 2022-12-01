@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("I am pround to annouce that the play i mention earlier is starting in 45 minutes! i better get off work early if im going to see it!"), tvprompt.trigger, spr_tv_idleanim2, 2.5)]
