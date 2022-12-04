@@ -124,6 +124,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42E5A4C3","properties":[],"isDnd":false,"objectId":{"name":"obj_escapecollect","path":"objects/obj_escapecollect/obj_escapecollect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C7A8123B","properties":[],"isDnd":false,"objectId":{"name":"obj_escapecollect","path":"objects/obj_escapecollect/obj_escapecollect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":608.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B5C80A3","properties":[],"isDnd":false,"objectId":{"name":"obj_escapecollect","path":"objects/obj_escapecollect/obj_escapecollect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31A3F30","properties":[],"isDnd":false,"objectId":{"name":"obj_tvtrigger","path":"objects/obj_tvtrigger/obj_tvtrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":544.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"tileset_dungeon2","path":"tilesets/tileset_dungeon2/tileset_dungeon2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":88,"SerialiseHeight":60,"TileCompressedData":[
 -5,13,4,15,0,0,268435471,-84,13,4,25,0,0,268435481,-84,13,4,35,0,0,268435491,-84,13,54,15,0,0,41,13,42,43,44,42,43,44,42,43,44,42,43,44,42,43,44,42,43,42,43,44,42,43,44,42,43,44,42,43,44,42,43,44,42,43,42,43,44,42,43,44,42,43,44,42,43,44,42,43,44,-34,13,1,25,-53,0,1,11,-33,13,
@@ -258,6 +259,7 @@
     {"name":"inst_42E5A4C3","path":"rooms/dungeon_6/dungeon_6.yy",},
     {"name":"inst_C7A8123B","path":"rooms/dungeon_6/dungeon_6.yy",},
     {"name":"inst_5B5C80A3","path":"rooms/dungeon_6/dungeon_6.yy",},
+    {"name":"inst_31A3F30","path":"rooms/dungeon_6/dungeon_6.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
