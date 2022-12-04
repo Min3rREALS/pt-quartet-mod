@@ -40,10 +40,10 @@ room_arr = [
 	[badland_9, mu_ufo, mu_desertsecret, true], 
 	[badland_mart4, mu_ufo, mu_desertsecret, true], 
 	[badland_10, mu_desert, mu_desertsecret, true], 
-	[forest_1, mu_forest, mu_medievalsecret, false], 
-	[forest_G1, mu_forest, mu_medievalsecret, true], 
-	[forest_G1b, mu_gustavo, mu_medievalsecret, false], 
-	[forest_5, mu_forest, mu_medievalsecret, true], 
+	[forest_1, mu_forest, mu_forestsecret, false], 
+	[forest_G1, mu_forest, mu_forestsecret, true], 
+	[forest_G1b, mu_gustavo, mu_forestsecret, false], 
+	[forest_5, mu_forest, mu_forestsecret, true], 
 	[chateau_1, mu_chateau, mu_medievalsecret, false], 
 	[sewer_1, mu_sewer, mu_medievalsecret, false], 
 	[freezer_1, mu_freezer, mu_medievalsecret, false], 
@@ -73,5 +73,6 @@ room_arr = [
 	[PP_room1, mu_tutorial, mu_medievalsecret, false],
 	[top_1, mu_top, mu_medievalsecret, false],
 	[bathroom_1, mu_bathroom, mu_bathroomsecret, false],
+	[tutorial_1, mu_tutorial, mu_medievalsecret, false],
 
 ]

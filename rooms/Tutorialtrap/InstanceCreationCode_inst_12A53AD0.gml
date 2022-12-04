@@ -1,2 +1,2 @@
-targetRoom = PP_room1
+targetRoom = tutorial_1
 targetDoor = "B"
