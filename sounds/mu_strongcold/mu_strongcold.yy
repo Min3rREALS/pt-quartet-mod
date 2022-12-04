@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mu_strongcold",
-  "duration": 135.069,
+  "duration": 135.06903,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
