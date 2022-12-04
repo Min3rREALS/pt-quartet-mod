@@ -1,0 +1,1 @@
+prompt_array = [tv_create_prompt(choose("When you hit Pillar John, hurry up and get back to the start! These blocks will change when the pillar is knocked down."), tvprompt.trigger, spr_tv_idleanim1, 2.5)]

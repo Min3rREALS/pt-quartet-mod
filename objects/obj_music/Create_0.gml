@@ -73,6 +73,6 @@ room_arr = [
 	[PP_room1, mu_tutorial, mu_medievalsecret, false],
 	[top_1, mu_top, mu_medievalsecret, false],
 	[bathroom_1, mu_bathroom, mu_bathroomsecret, false],
-	[tutorial_1, mu_tutorial, mu_medievalsecret, false],
+	[tutorial_1, mu_tutorialnew, mu_medievalsecret, false],
 
 ]
