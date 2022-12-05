@@ -6292,7 +6292,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sewer","folderPath":"folders/Rooms/Levels/Sewer.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Space","folderPath":"folders/Rooms/Levels/Space.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Street","folderPath":"folders/Rooms/Levels/Street.yy","order":12,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"strongcold","folderPath":"folders/Rooms/Levels/strongcold.yy","order":23,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Strongcold_NEW","folderPath":"folders/Rooms/Levels/Strongcold_NEW.yy","order":23,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Top","folderPath":"folders/Rooms/Levels/Top.yy","order":19,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"War","folderPath":"folders/Rooms/Levels/War.yy","order":18,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old Levels","folderPath":"folders/Rooms/Old Levels.yy","order":8,},

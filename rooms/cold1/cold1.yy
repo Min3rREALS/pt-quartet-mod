@@ -91,7 +91,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "strongcold",
-    "path": "folders/Rooms/Levels/strongcold.yy",
+    "name": "Strongcold_NEW",
+    "path": "folders/Rooms/Levels/Strongcold_NEW.yy",
   },
 }
