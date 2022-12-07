@@ -74,6 +74,7 @@ room_arr = [
 	[top_1, mu_top, mu_medievalsecret, false],
 	[bathroom_1, mu_bathroom, mu_bathroomsecret, false],
 	[tutorial_1, mu_tutorialnew, mu_medievalsecret, false],
-	[cold1, mu_strongcold, mu_medievalsecret, false],
+	[cold1, mu_dungeondepth, mu_dungeonsecret, false],
+	[arctic_1, mu_arctic, mu_medieval, false],
 
 ]

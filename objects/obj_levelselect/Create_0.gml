@@ -39,6 +39,7 @@ level_array[5][1] = ["FACTORY REMIX", factory_1_REMIX, "factoryremix"]
 level_array[5][2] = ["THE ANCIENT TOWER", ancient_1, "ancient"]
 level_array[5][3] = ["OUTSIDE TEST", Titlescreen, "titlescreen"]
 level_array[5][4] = ["GREMLINS STRONGCOLD", cold1, "strongcold"]
+level_array[5][5] = ["ARCTIC ASS", arctic_1, "arctic"]
 level_array[6][0] = ["THE CRUMBLING TOWER OF PIZZA", tower_finalhallway, "tower"]
 
 toppin_info[0] = [0, spr_toppinshroom] // image_index, sprite
