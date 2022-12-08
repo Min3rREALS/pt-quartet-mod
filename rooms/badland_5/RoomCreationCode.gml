@@ -1,5 +1,5 @@
 pal_swap_init_system(shd_pal_swapper)
-global.roommessage = "PIZZA TOWER OF THE WEST"
+global.roommessage = "SOME KINDA WEATHER WE ARE HAVING"
 if (!obj_secretmanager.init)
 {
 	obj_secretmanager.init = 1

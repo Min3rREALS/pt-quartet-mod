@@ -9,7 +9,7 @@ draw_text_colour(380, 100, "ON", c_white, c_white, c_white, c_white, (_os_fs == 
 draw_text_colour(580, 100, "OFF", c_white, c_white, c_white, c_white, (_os_fs == 1 ? 1 : 0.5))
 var _os_rs = optionsaved_resolution
 draw_text_colour(480, 180, "RESOLUTION", c_white, c_white, c_white, c_white, (_os == 1 ? 1 : 0.5))
-draw_text_colour(300, 230, concat(480, "X", 270), c_white, c_white, c_white, c_white, (_os_rs == 0 ? 1 : 0.5))
+draw_text_colour(300, 230, concat(720, "X", 540), c_white, c_white, c_white, c_white, (_os_rs == 0 ? 1 : 0.5))
 draw_text_colour(480, 230, concat(960, "X", 540), c_white, c_white, c_white, c_white, (_os_rs == 1 ? 1 : 0.5))
 draw_text_colour(680, 230, concat(1920, "X", 1080), c_white, c_white, c_white, c_white, (_os_rs == 2 ? 1 : 0.5))
 draw_text_colour(480, 295, "KEY CONFIG", c_white, c_white, c_white, c_white, (_os == 2 ? 1 : 0.5))
