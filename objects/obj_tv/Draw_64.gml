@@ -99,4 +99,5 @@ if global.panic
 	draw_sprite(spr_timer_bar, -1, timer_x, timer_y)
 	draw_sprite(johnface_sprite, johnface_index, ((timer_x + 13) + _barpos), (timer_y + 20))
 	draw_sprite(pizzaface_sprite, pizzaface_index, (timer_x + 320), (timer_y + 10))
+	draw_sprite(hand_sprite, hand_index, (timer_x + -100), (timer_y + 20))
 }

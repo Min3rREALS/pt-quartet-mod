@@ -2317,6 +2317,7 @@
     {"id":{"name":"spr_doorA","path":"sprites/spr_doorA/spr_doorA.yy",},"order":1,},
     {"id":{"name":"sprite1022","path":"sprites/sprite1022/sprite1022.yy",},"order":17,},
     {"id":{"name":"factory_1_REMIX","path":"rooms/factory_1_REMIX/factory_1_REMIX.yy",},"order":0,},
+    {"id":{"name":"noisettes_cafe","path":"rooms/noisettes_cafe/noisettes_cafe.yy",},"order":3,},
     {"id":{"name":"sprite1023","path":"sprites/sprite1023/sprite1023.yy",},"order":18,},
     {"id":{"name":"sprite1024","path":"sprites/sprite1024/sprite1024.yy",},"order":19,},
     {"id":{"name":"sprite1025","path":"sprites/sprite1025/sprite1025.yy",},"order":40,},
@@ -6230,6 +6231,7 @@
     {"roomId":{"name":"arctic_3","path":"rooms/arctic_3/arctic_3.yy",},},
     {"roomId":{"name":"arctic_4","path":"rooms/arctic_4/arctic_4.yy",},},
     {"roomId":{"name":"arctic_5","path":"rooms/arctic_5/arctic_5.yy",},},
+    {"roomId":{"name":"noisettes_cafe","path":"rooms/noisettes_cafe/noisettes_cafe.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
@@ -6278,6 +6280,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Arcade","folderPath":"folders/Rooms/Arcade.yy","order":15,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Arctic","folderPath":"folders/Rooms/Arcade/Arctic.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bathroom","folderPath":"folders/Rooms/Arcade/Bathroom.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Rooms/Arcade/Tutorial.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bosses","folderPath":"folders/Rooms/Bosses.yy","order":10,},
@@ -6553,7 +6556,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Tile Sets/Tutorial.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"War","folderPath":"folders/Tile Sets/War.yy","order":20,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Arctic","folderPath":"folders/Rooms/Arcade/Arctic.yy","order":8,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
