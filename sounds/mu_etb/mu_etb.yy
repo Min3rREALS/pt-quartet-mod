@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_killenemy",
+  "name": "mu_etb",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
-  "preload": true,
+  "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
   "type": 0,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_killenemy",
-  "duration": 1.354036,
+  "soundFile": "mu_etb.ogg",
+  "duration": 107.66402,
   "parent": {
-    "name": "SFX",
-    "path": "folders/Sounds/SFX.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
 }

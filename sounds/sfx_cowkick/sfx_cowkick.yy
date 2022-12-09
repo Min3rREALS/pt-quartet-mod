@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_cowkick.mp3",
-  "duration": 0.316,
+  "duration": 0.316508,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
