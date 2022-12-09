@@ -1,2 +1,2 @@
-targetRoom = industrial_4
+targetRoom = factory_11
 targetDoor = "A"

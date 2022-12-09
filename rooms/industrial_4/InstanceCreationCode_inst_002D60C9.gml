@@ -1,1 +1,1 @@
-targetRoom = industrial_3
+targetRoom = factory_8

@@ -1,2 +1,2 @@
-targetRoom = industrial_4
-targetDoor = "C"
+targetRoom = factory_9
+targetDoor = "E"

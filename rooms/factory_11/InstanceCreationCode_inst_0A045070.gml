@@ -1,1 +1,0 @@
-maxmovespeed = 7
