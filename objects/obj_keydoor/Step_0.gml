@@ -29,6 +29,7 @@ if instance_exists(obj_player2)
 		obj_player1.image_index = 0
 		image_index = 0
 		sprite_index = spr_doorkeyopen
+		scr_soundeffect(sfx_keydoor)
 		image_speed = 0.35
 		instance_create((x + 50), (y + 50), obj_lock)
 		global.key_inv = 0

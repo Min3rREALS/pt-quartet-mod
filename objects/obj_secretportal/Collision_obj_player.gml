@@ -2,6 +2,7 @@ if (active && sprite_index != spr_secretportal_open && (!instance_exists(obj_jum
 {
 	if (sprite_index != spr_secretportal_close)
 	{
+		scr_soundeffect(sfx_secretportal)
 		sprite_index = spr_secretportal_close
 		image_index = 0
 	}

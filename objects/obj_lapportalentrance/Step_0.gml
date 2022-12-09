@@ -14,7 +14,7 @@ if (floor(image_index) == (image_number - 1))
 	{
 		case spr_pizzaportal_appear:
 			sprite_index = spr_pizzaportalentrancestart
-			scr_sound(sfx_bell)
+			scr_soundeffect(sfx_bell)
 	        instance_create(x, y + 600, obj_itslappingtime)
 			break
 		case spr_pizzaportalentrancestart:
