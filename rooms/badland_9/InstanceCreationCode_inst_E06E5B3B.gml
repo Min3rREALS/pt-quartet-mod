@@ -1,1 +1,0 @@
-targetRoom = badland_8

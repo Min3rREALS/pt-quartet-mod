@@ -33,7 +33,7 @@ if (!obj_player.ispeppino && music != mu_entrance)
 }
 if global.panic
 {
-    if (music != mu_pizzatime && music != mu_chase && music != mu_industrialescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_finalescape)
+    if (music != mu_pizzatime && music != mu_chase && music != mu_industrialescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_dragonlair && music != mu_finalescape)
     {
         music = mu_pizzatime
         audio_stop_sound(musicID)
