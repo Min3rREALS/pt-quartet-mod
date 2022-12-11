@@ -17,9 +17,9 @@ if (sprite_index == spr_boxcrusher_fall && grounded)
 if (sprite_index == spr_boxcrusher_land && floor(image_index) == (image_number - 1))
 {
 	sprite_index = spr_boxcrusher_idle
-	gobackup = 1
+	gobackup = true
 }
-if (gobackup == 1)
+if (gobackup == true)
 	y = Approach(y, ystart, 2)
 if (y == ystart)
 	gobackup = 0
