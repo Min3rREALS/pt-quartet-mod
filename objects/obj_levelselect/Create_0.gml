@@ -9,7 +9,7 @@ world_array[1] = "COSMIC WEST"
 world_array[2] = "NO VACATION CRUISE"
 world_array[3] = "21ST CENTURY EMPIRE"
 world_array[4] = "TERROR NATION"
-world_array[5] = "EXTRA"
+world_array[5] = "EXTRA UNIVERSES"
 world_array[6] = "EXIT"
 
 level_array[0][0] = ["JOHN GUTTER", entrance_1, "entrance"]
@@ -30,7 +30,7 @@ level_array[2][3] = ["GOLF", minigolf_1, "minigolf"]
 level_array[3][0] = ["THE PIG CITY", street_intro, "street"]
 level_array[3][1] = ["OH SHIT", sewer_1, "sewer"]
 level_array[3][2] = ["PEPPIBOT FACTORY", industrial_1, "industrial"]
-level_array[3][3] = ["RREFRIDGERATOR REFERIDGERADOR FREEZERATOR", freezer_1, "freezer"]
+level_array[3][3] = ["REFRIDGERATOR REFERIDGERADOR FREEZERATOR", freezer_1, "freezer"]
 level_array[4][0] = ["PIZZASCARE", chateau_1, "chateau"]
 level_array[4][1] = ["PEPPERS MANSION", mansion_3, "mansion"]
 level_array[4][2] = ["DONT MAKE A SOUND", kidsparty_1, "kidsparty"]
@@ -40,7 +40,7 @@ level_array[5][1] = ["FACTORY REMIX", factory_1_REMIX, "factoryremix"]
 level_array[5][2] = ["THE ANCIENT TOWER", ancient_1, "ancient"]
 level_array[5][3] = ["OUTSIDE TEST", Titlescreen, "titlescreen"]
 level_array[5][4] = ["GREMLINS STRONGCOLD", cold1, "strongcold"]
-level_array[5][5] = ["REALLY BAD DONT PLAY RN", arctic_1, "arctic"]
+level_array[5][5] = ["ARTIC ASS", arctic_1, "arctic"]
 level_array[6][0] = ["THE CRUMBLING TOWER OF PIZZA", tower_finalhallway, "tower"]
 
 toppin_info[0] = [0, spr_toppinshroom] // image_index, sprite

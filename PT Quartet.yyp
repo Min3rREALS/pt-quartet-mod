@@ -862,6 +862,7 @@
     {"id":{"name":"spr_player_buttattack","path":"sprites/spr_player_buttattack/spr_player_buttattack.yy",},"order":49,},
     {"id":{"name":"spr_player_buttattackend","path":"sprites/spr_player_buttattackend/spr_player_buttattackend.yy",},"order":50,},
     {"id":{"name":"spr_player_dashpad","path":"sprites/spr_player_dashpad/spr_player_dashpad.yy",},"order":76,},
+    {"id":{"name":"spr_noisettecafe_seats","path":"sprites/spr_noisettecafe_seats/spr_noisettecafe_seats.yy",},"order":21,},
     {"id":{"name":"spr_player_presentbox","path":"sprites/spr_player_presentbox/spr_player_presentbox.yy",},"order":252,},
     {"id":{"name":"spr_tv_scaredjumpN","path":"sprites/spr_tv_scaredjumpN/spr_tv_scaredjumpN.yy",},"order":16,},
     {"id":{"name":"spr_chain","path":"sprites/spr_chain/spr_chain.yy",},"order":21,},
