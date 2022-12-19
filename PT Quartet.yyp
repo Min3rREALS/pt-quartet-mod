@@ -3129,6 +3129,7 @@
     {"id":{"name":"obj_snowmanhead","path":"objects/obj_snowmanhead/obj_snowmanhead.yy",},"order":115,},
     {"id":{"name":"obj_bazookabaddie","path":"objects/obj_bazookabaddie/obj_bazookabaddie.yy",},"order":3,},
     {"id":{"name":"obj_farmer1follow","path":"objects/obj_farmer1follow/obj_farmer1follow.yy",},"order":5,},
+    {"id":{"name":"ancient_4","path":"rooms/ancient_4/ancient_4.yy",},"order":5,},
     {"id":{"name":"obj_surprisebox_boss","path":"objects/obj_surprisebox_boss/obj_surprisebox_boss.yy",},"order":28,},
     {"id":{"name":"obj_arenadoor","path":"objects/obj_arenadoor/obj_arenadoor.yy",},"order":1,},
     {"id":{"name":"obj_spawner_goblinraid","path":"objects/obj_spawner_goblinraid/obj_spawner_goblinraid.yy",},"order":118,},
@@ -6257,6 +6258,7 @@
     {"roomId":{"name":"bathroom_secret1","path":"rooms/bathroom_secret1/bathroom_secret1.yy",},},
     {"roomId":{"name":"bathroom_secrettemp","path":"rooms/bathroom_secrettemp/bathroom_secrettemp.yy",},},
     {"roomId":{"name":"dragonlair_lap","path":"rooms/dragonlair_lap/dragonlair_lap.yy",},},
+    {"roomId":{"name":"ancient_4","path":"rooms/ancient_4/ancient_4.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
