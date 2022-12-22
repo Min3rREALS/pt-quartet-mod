@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collision",
-    "path": "folders/Objects/Collision.yy",
+    "name": "Level",
+    "path": "folders/Objects/Level.yy",
   },
 }
