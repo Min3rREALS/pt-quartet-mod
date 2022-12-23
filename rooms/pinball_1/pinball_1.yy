@@ -172,6 +172,8 @@
     {"name":"inst_98042D55","path":"rooms/pinball_1/pinball_1.yy",},
     {"name":"inst_4917A556","path":"rooms/pinball_1/pinball_1.yy",},
     {"name":"inst_60B235DF","path":"rooms/pinball_1/pinball_1.yy",},
+    {"name":"inst_1351BFED","path":"rooms/pinball_1/pinball_1.yy",},
+    {"name":"inst_98042D55","path":"rooms/pinball_1/pinball_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
