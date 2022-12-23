@@ -77,5 +77,7 @@ room_arr = [
 	[tutorial_1, mu_tutorialnew, mu_medievalsecret, false],
 	[cold1, mu_dungeondepth, mu_dungeonsecret, false],
 	[arctic_1, mu_arctic, mu_medieval, false],
+	[pinball_1, mu_saloon, mu_saloonsecret, false], 
+	[pinball_11, mu_pinball, mu_pinballsecret, true], 
 
 ]
