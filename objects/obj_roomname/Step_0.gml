@@ -1,14 +1,2 @@
-//Text
-if showtext && !(instance_exists(obj_tv) && sprite_exists(obj_tv.bubblespr))
-	yi = min(yi + 5, 30);
-else
-{
-	if showtext
-	{
-		yi -= 5;
-		if alarm[0] > -1
-			alarm[0]++;
-	}
-	yi = max(yi - 1, -50);
-}
-
+if (showtext == true) yi = Approach(yi, 450, 5);
+else yi = Approach(yi, 600, 1);

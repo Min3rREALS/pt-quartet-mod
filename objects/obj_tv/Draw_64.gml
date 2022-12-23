@@ -100,4 +100,18 @@ if global.panic
 	draw_sprite(johnface_sprite, johnface_index, ((timer_x + 13) + _barpos), (timer_y + 20))
 	draw_sprite(pizzaface_sprite, pizzaface_index, (timer_x + 320), (timer_y + 10))
 	draw_sprite(hand_sprite, hand_index, (timer_x + -100), (timer_y + 20))
+	draw_set_font(global.bigfont)
+    draw_set_halign(fa_center)
+    draw_set_valign(fa_top)
+    var str = ""
+    str += (string(global.minutes) + ":")
+    if (global.seconds < 10)
+        str += "0"
+    str += string(global.seconds)
+    if (global.panic && global.fill < (chunkmax / 5))
+        draw_set_color(c_red)
+    else
+        draw_set_color(c_white)
+    draw_text((timer_x + 160), (timer_y + -35), str)
 }
+

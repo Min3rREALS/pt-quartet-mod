@@ -3453,6 +3453,7 @@
     {"id":{"name":"obj_enemyrain","path":"objects/obj_enemyrain/obj_enemyrain.yy",},"order":40,},
     {"id":{"name":"obj_pizzaface","path":"objects/obj_pizzaface/obj_pizzaface.yy",},"order":15,},
     {"id":{"name":"obj_onebyone","path":"objects/obj_onebyone/obj_onebyone.yy",},"order":21,},
+    {"id":{"name":"bg_pinballtable","path":"sprites/bg_pinballtable/bg_pinballtable.yy",},"order":8,},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":2,},
     {"id":{"name":"obj_destroyable","path":"objects/obj_destroyable/obj_destroyable.yy",},"order":0,},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"order":3,},
