@@ -4182,6 +4182,7 @@
     {"id":{"name":"hub_loadingscreen","path":"rooms/hub_loadingscreen/hub_loadingscreen.yy",},"order":36,},
     {"id":{"name":"freezer_7","path":"rooms/freezer_7/freezer_7.yy",},"order":7,},
     {"id":{"name":"hub_pizzatowercomplex","path":"rooms/hub_pizzatowercomplex/hub_pizzatowercomplex.yy",},"order":37,},
+    {"id":{"name":"ancient_5","path":"rooms/ancient_5/ancient_5.yy",},"order":6,},
     {"id":{"name":"badland_secret3","path":"rooms/badland_secret3/badland_secret3.yy",},"order":19,},
     {"id":{"name":"street_secret2","path":"rooms/street_secret2/street_secret2.yy",},"order":16,},
     {"id":{"name":"top_10","path":"rooms/top_10/top_10.yy",},"order":9,},
@@ -6268,6 +6269,7 @@
     {"roomId":{"name":"dragonlair_lap","path":"rooms/dragonlair_lap/dragonlair_lap.yy",},},
     {"roomId":{"name":"ancient_4","path":"rooms/ancient_4/ancient_4.yy",},},
     {"roomId":{"name":"Buildings","path":"rooms/Buildings/Buildings.yy",},},
+    {"roomId":{"name":"ancient_5","path":"rooms/ancient_5/ancient_5.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},

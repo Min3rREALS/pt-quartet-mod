@@ -87,7 +87,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_98042D55","properties":[],"isDnd":false,"objectId":{"name":"obj_minipillar","path":"objects/obj_minipillar/obj_minipillar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3968.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4917A556","properties":[],"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":14.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-96.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60B235DF","properties":[],"isDnd":false,"objectId":{"name":"obj_pinballlauncher","path":"objects/obj_pinballlauncher/obj_pinballlauncher.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1983.9998,"y":288.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40BCA095","properties":[],"isDnd":false,"objectId":{"name":"obj_lapportal","path":"objects/obj_lapportal/obj_lapportal.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":96.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","tilesetId":{"name":"tileset_tile_kungfustructure","path":"tilesets/tileset_tile_kungfustructure/tileset_tile_kungfustructure.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":163,"SerialiseHeight":17,"TileCompressedData":[
 -75,0,15,82,81,82,81,82,81,82,81,82,81,82,81,82,81,82,-39,0,2,81,82,-14,0,5,66,65,66,65,66,-91,0,12,65,66,65,66,65,66,65,66,65,66,65,66,-26,0,2,268435524,268435523,-11,0,2,65,66,-14,0,5,82,81,82,81,82,-91,0,12,81,82,81,82,81,82,81,82,81,82,81,82,-26,0,2,268435540,268435539,-11,0,3,81,82,122,-13,0,5,66,65,66,65,66,-101,0,2,65,66,-26,0,16,268435556,268435555,0,0,66,65,66,65,66,65,66,65,66,65,66,138,-13,0,5,82,81,82,81,82,-89,0,2,120,122,-42,0,11,82,81,82,81,82,81,82,81,82,81,82,-14,0,5,66,65,66,65,66,-89,0,14,136,138,65,
@@ -173,7 +172,8 @@
     {"name":"inst_98042D55","path":"rooms/pinball_1/pinball_1.yy",},
     {"name":"inst_4917A556","path":"rooms/pinball_1/pinball_1.yy",},
     {"name":"inst_60B235DF","path":"rooms/pinball_1/pinball_1.yy",},
-    {"name":"inst_40BCA095","path":"rooms/pinball_1/pinball_1.yy",},
+    {"name":"inst_1351BFED","path":"rooms/pinball_1/pinball_1.yy",},
+    {"name":"inst_98042D55","path":"rooms/pinball_1/pinball_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
