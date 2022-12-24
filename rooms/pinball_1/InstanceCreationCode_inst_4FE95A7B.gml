@@ -1,1 +1,1 @@
-targetRoom + pinball_17
+targetRoom = pinball_17
