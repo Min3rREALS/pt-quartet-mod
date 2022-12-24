@@ -1,0 +1,1 @@
+targetRoom = kitchensecret_3
