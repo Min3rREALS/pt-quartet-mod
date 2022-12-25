@@ -5451,6 +5451,7 @@
     {"id":{"name":"shd_war","path":"shaders/shd_war/shd_war.yy",},"order":6,},
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},"order":5291,},
     {"id":{"name":"font1","path":"fonts/font1/font1.yy",},"order":5292,},
+    {"id":{"name":"circus_4","path":"rooms/circus_4/circus_4.yy",},"order":4,},
     {"id":{"name":"font2","path":"fonts/font2/font2.yy",},"order":5293,},
   ],
   "Options": [
@@ -6307,6 +6308,7 @@
     {"roomId":{"name":"circus_template","path":"rooms/circus_template/circus_template.yy",},},
     {"roomId":{"name":"circus_2","path":"rooms/circus_2/circus_2.yy",},},
     {"roomId":{"name":"circus_3","path":"rooms/circus_3/circus_3.yy",},},
+    {"roomId":{"name":"circus_4","path":"rooms/circus_4/circus_4.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
@@ -6387,6 +6389,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Strongcold_NEW","folderPath":"folders/Rooms/Levels/Strongcold_NEW.yy","order":23,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Top","folderPath":"folders/Rooms/Levels/Top.yy","order":19,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"War","folderPath":"folders/Rooms/Levels/War.yy","order":18,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"lost tower","folderPath":"folders/Rooms/lost tower.yy","order":16,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"circus","folderPath":"folders/Rooms/lost tower/circus.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"kitchen","folderPath":"folders/Rooms/lost tower/kitchen.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old Levels","folderPath":"folders/Rooms/Old Levels.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Beach","folderPath":"folders/Rooms/Old Levels/Beach.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"City","folderPath":"folders/Rooms/Old Levels/City.yy","order":9,},
@@ -6631,9 +6636,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Tile Sets/Tutorial.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"War","folderPath":"folders/Tile Sets/War.yy","order":20,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"lost tower","folderPath":"folders/Rooms/lost tower.yy","order":16,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"kitchen","folderPath":"folders/Rooms/lost tower/kitchen.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"circus","folderPath":"folders/Rooms/lost tower/circus.yy","order":8,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
