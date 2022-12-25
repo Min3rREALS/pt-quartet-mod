@@ -42,4 +42,3 @@ function scr_player_skateboard()
 	image_speed = 0.35
 	exit;
 }
-

@@ -9,7 +9,7 @@ world_array[1] = "COSMIC WEST"
 world_array[2] = "NO VACATION CRUISE"
 world_array[3] = "21ST CENTURY EMPIRE"
 world_array[4] = "TERROR NATION"
-world_array[5] = "EXTRA UNIVERSES"
+world_array[5] = "UNCATEGORIZED"
 world_array[6] = "EXIT"
 
 level_array[0][0] = ["JOHN GUTTER", entrance_1, "entrance"]
@@ -43,6 +43,8 @@ level_array[5][4] = ["GREMLINS STRONGCOLD", cold1, "strongcold"]
 level_array[5][5] = ["ARCTIC ASS", arctic_1, "arctic"]
 level_array[5][6] = ["SPACE SALOON", pinball_1, "pinball"]
 level_array[5][7] = ["KITCHEN", kitchen_1, "kitchen"]
+level_array[5][8] = ["PIZZALAND PANIC", circus_1, "circus"]
+level_array[5][9] = ["SEPTEMBER HUB QUESTION MARK", hub_pizzatowerlobby, "hub"]
 level_array[6][0] = ["THE CRUMBLING TOWER OF PIZZA", tower_finalhallway, "tower"]
 
 toppin_info[0] = [0, spr_toppinshroom] // image_index, sprite
