@@ -1,5 +1,5 @@
 event_inherited()
-dialog[0] = dialog_create("Have my motorcycle lol", -4, function()
+dialog[0] = dialog_create("AAAAAAAAAAAAAAAAAAAAAAAAAAA PRPPINO SPAGHETI    FUCK SHIT SHIT FUCK SHIT          OH NO HE NEEDS YOUR HELP                                                                                 welcome to your desert", -4, function()
 {
 	if (global.chieftaincutscene == -4 or (!global.chieftaincutscene))
 	{
