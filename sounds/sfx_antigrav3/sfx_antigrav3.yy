@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_antigrav3.wav",
-  "duration": 0.447,
+  "duration": 0.44712,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

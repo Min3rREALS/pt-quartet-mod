@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_collectgiantpizza",
-  "duration": 2.092,
+  "duration": 2.092404,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

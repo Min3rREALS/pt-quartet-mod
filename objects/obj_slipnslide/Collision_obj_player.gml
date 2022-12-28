@@ -3,6 +3,7 @@ with (other)
 	if (state != states.trashroll && state != states.trashjump && state != states.cheeseball)
 	{
 		sprite_index = spr_slipbanan1
+		scr_soundeffect(sfx_dizzy)
 		other.drop = 1
 		vsp = -11
 		movespeed += 2

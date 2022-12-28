@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_knightslide",
-  "duration": 1.632,
+  "duration": 1.632653,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

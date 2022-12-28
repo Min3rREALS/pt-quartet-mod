@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_box",
-  "duration": 1.201,
+  "duration": 1.201633,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

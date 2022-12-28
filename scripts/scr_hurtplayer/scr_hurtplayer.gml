@@ -46,6 +46,7 @@ function scr_hurtplayer(argument0)
 				hitX = x
 				hitY = y
 				sprite_index = spr_hurt
+				scr_soundeffect(sfx_hurt1, sfx_hurt2, sfx_ohman)
 				if (global.hp > 1)
 				{
 					global.hp--
