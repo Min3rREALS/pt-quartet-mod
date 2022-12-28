@@ -5,14 +5,17 @@ if (fadealpha > 1 && (!fadein))
 		instance_activate_all()
 		scr_deactivate_escape()
 		alarm[0] = 1
+		audio_stop_sound(mu_menu)
 		audio_resume_all()
 	}
 	else if (!obj_pause.pause)
 	{
-		audio_pause_all()
 		instance_deactivate_all(true)
 		instance_activate_object(obj_pause)
 		instance_activate_object(obj_inputAssigner)
+		audio_pause_all()
+		if !audio_is_playing(mu_menu)
+			scr_music(mu_menu)
 	}
 	obj_pause.pause = (!obj_pause.pause)
 	fadein = 1

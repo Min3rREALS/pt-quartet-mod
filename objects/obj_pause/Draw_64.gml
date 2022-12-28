@@ -1,7 +1,7 @@
 if pause
 {
 	var pad = 48
-	draw_rectangle_color(0, 0, 960, 540, c_black, c_black, c_black, c_black, 0)
+	draw_sprite(bg_quartet,0,0,0)
 	draw_set_halign(fa_left)
 	draw_set_valign(fa_top)
 	var xx = 490
