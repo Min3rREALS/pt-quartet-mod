@@ -25,15 +25,22 @@ if (prevpillar_on_camera != pillar_on_camera)
 		audio_sound_gain(musicID, (0.6 * global.option_music_volume), 2000)
 	}
 }
-if (!obj_player.ispeppino && music != mu_entrance)
+if (string_letters(room_get_name(room)) == "entrance")
 {
-        music = mu_noiseentrance
-	audio_stop_sound(musicID)
-    musicID = scr_music(music)
+	if (!obj_player.ispeppino)
+	{
+        if (!audio_is_playing(mu_noiseentrance))
+        {
+            music = mu_noiseentrance
+			audio_stop_sound(musicID)
+			musicID = scr_music(music)
+            pausedmusic = mu_noiseentrance
+		}
+	}
 }
 if global.panic
 {
-    if (music != mu_pizzatime && music != mu_chase && music != mu_industrialescape && music != mu_freefallingescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_dragonlair && music != mu_finalescape)
+    if (music != mu_pizzatime && music != mu_noiseescape && music != mu_chase && music != mu_industrialescape && music != mu_freefallingescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_dragonlair && music != mu_finalescape)
     {
         music = mu_pizzatime
         audio_stop_sound(musicID)
@@ -62,13 +69,6 @@ if global.panic
         if (pillarmusicID != -4)
             audio_stop_sound(pillarmusicID)
         pillarmusicID = -4
-	    if (string_letters(room_get_name(room)) == "bathroom")
-            music = mu_sewerescape
-        audio_stop_sound(musicID)
-        musicID = scr_music(music)
-        if (pillarmusicID != -4)
-            audio_stop_sound(pillarmusicID)
-        pillarmusicID = -4
         if (string_letters(room_get_name(room)) == "industrial")
             music = mu_industrialescape
         audio_stop_sound(musicID)
@@ -90,8 +90,15 @@ if global.panic
         if (pillarmusicID != -4)
             audio_stop_sound(pillarmusicID)
         pillarmusicID = -4
-        if (string_letters(room_get_name(room)) == "freezer")
+        if (room = freezer_escape1)
             music = mu_freezerescape
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+	    if (string_letters(room_get_name(room)) == "bathroom")
+            music = mu_sewerescape
         audio_stop_sound(musicID)
         musicID = scr_music(music)
         if (pillarmusicID != -4)

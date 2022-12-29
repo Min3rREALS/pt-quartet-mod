@@ -15,6 +15,7 @@ if (other.cutscene == 0 && sprite_index != spr_bigmushroom_bounce && other.state
 			state = states.mach2
 	}
 	sprite_index = spr_bigmushroom_bounce
+	scr_soundeffect(sfx_mushroombounce)
 	if (other.state == states.jump or other.state == states.normal)
 	{
 		other.sprite_index = other.spr_machfreefall

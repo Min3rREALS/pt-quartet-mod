@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_freezerescape.mp3",
-  "duration": 126.528,
+  "soundFile": "mu_freezerescape.wav",
+  "duration": 126.46707,
   "parent": {
     "name": "escape",
     "path": "folders/Sounds/Music/escape.yy",

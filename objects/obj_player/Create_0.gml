@@ -253,6 +253,7 @@ rocketsnd = -1
 superjumpholdsnd = -1
 superjumpprepsnd = -1
 suplexdashsnd = -1
+ratroll = -1
 pogospeed = 2
 pogocharge = 100
 pogochargeactive = 0

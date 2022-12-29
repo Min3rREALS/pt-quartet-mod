@@ -23,7 +23,7 @@ function scr_playersounds()
 		}
 		else if (state != states.rocket)
 			audio_stop_sound(rocketsnd)
-		if ((state == states.mach3 or sprite_index == spr_mach3boost) && (ratmount_movespeed >= 12) && sprite_index != spr_crazyrun && (!audio_is_playing(sfx_mach3)))
+		if ((state == states.mach3 or sprite_index == spr_mach3boost) && sprite_index != spr_crazyrun && (!audio_is_playing(sfx_mach3)))
 		{
 			mach3snd = audio_play_sound(sfx_mach3, 1, false)
 			sfx_gain(mach3snd)

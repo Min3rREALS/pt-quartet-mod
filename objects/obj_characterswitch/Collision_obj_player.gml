@@ -1,7 +1,7 @@
 with (other)
 {
 	if (character == "P")
-		character = "N"
+		character = "I"
 	else
 		character = "P"
 	respawn = 200
