@@ -116,10 +116,10 @@ function scr_collide_destructibles()
 				}
 			}
 			ds_list_clear(global.instancelist)
-			if (vsp <= 0.5 && (state == states.jump or state == states.ratmountjump or state == states.mach3 or state == states.mach2 or state == states.antigrav or state == states.pogo or (state == states.bombpepup && bombup_dir == -1) or state == states.punch or state == states.climbwall or state == states.fireass or state == states.Sjump or state == states.cheeseballclimbwall or state == states.mach3 or (state == states.punch && (sprite_index == spr_player_breakdanceuppercut or sprite_index == spr_player_breakdanceuppercutend))))
+			if (vsp <= 0.5 && (state == states.jump or state == states.ratmountjump or state == states.mach3 or state == states.mach2 or state == states.antigrav or state == states.pogo or (state == states.bombpepup && bombup_dir == -1) or state == states.punch or state == states.climbwall or state == states.fireass or state == states.Sjump or state == states.cheeseballclimbwall or state == states.mach3 or (state == states.punch && (sprite_index == spr_uppercutbreak or sprite_index == spr_uppercutbreakend))))
 			{
 				var vy = -1
-				if (state == states.punch && (sprite_index == spr_player_breakdanceuppercut or sprite_index == spr_player_breakdanceuppercutend))
+				if (state == states.punch && (sprite_index == spr_uppercutbreak or sprite_index == spr_uppercutbreakend))
 					vy = vsp
 				if place_meeting(x, (y + vy), obj_destructibles)
 				{

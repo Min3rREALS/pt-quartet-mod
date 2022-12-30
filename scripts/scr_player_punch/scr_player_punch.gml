@@ -1,6 +1,6 @@
 function scr_player_punch()
 {
-	if (sprite_index == spr_player_breakdanceuppercut or sprite_index == spr_player_breakdanceuppercutend)
+	if (sprite_index == spr_uppercutbreak or sprite_index == spr_uppercutbreakend)
 	{
 		move = (key_left + key_right)
 		landAnim = 1
@@ -12,9 +12,9 @@ function scr_player_punch()
 			dir = move
 			movespeed = Approach(movespeed, (move * 4), 0.5)
 		}
-		if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_breakdanceuppercut)
-			sprite_index = spr_player_breakdanceuppercutend
-		if (grounded && vsp > 0 && (sprite_index == spr_player_breakdanceuppercut or sprite_index == spr_player_breakdanceuppercutend))
+		if (floor(image_index) == (image_number - 1) && sprite_index == spr_uppercutbreak)
+			sprite_index = spr_uppercutbreakend
+		if (grounded && vsp > 0 && (sprite_index == spr_uppercutbreak or sprite_index == spr_uppercutbreakend))
 		{
 			if (hsp != 0)
 			{

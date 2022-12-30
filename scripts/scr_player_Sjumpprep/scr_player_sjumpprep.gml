@@ -3,6 +3,7 @@ function scr_player_Sjumpprep()
 	switch character
 	{
 		case "P":
+		case "I":
 			if (sprite_index == spr_superjumppreplight or sprite_index == spr_superjumpright or sprite_index == spr_superjumpleft)
 				move = (key_left + key_right)
 			else
@@ -42,7 +43,7 @@ function scr_player_Sjumpprep()
 				else
 					sprite_index = spr_superjumppreplight
 			}
-			if ((!key_up) && grounded && (character == "S" or sprite_index == spr_superjumppreplight or sprite_index == spr_superjumpleft or sprite_index == spr_superjumpright) && (!(scr_solid(x, (y - 16)))) && (!(scr_solid(x, (y - 32)))))
+			if ((!key_up) && grounded && (sprite_index == spr_superjumppreplight or sprite_index == spr_superjumpleft or sprite_index == spr_superjumpright) && (!(scr_solid(x, (y - 16)))) && (!(scr_solid(x, (y - 32)))))
 			{
 				scr_soundeffect(sfx_superjumprelease)
 				instance_create(x, y, obj_explosioneffect)
@@ -100,4 +101,3 @@ function scr_player_Sjumpprep()
 	}
 	exit;
 }
-

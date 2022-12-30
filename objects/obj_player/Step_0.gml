@@ -597,7 +597,7 @@ if (state == states.lungeattack)
 	lunge_buffer = 14
 if (blur_effect > 0)
 	blur_effect--
-else if (breakdance_speed >= 0.6 or mach4mode == 1 or boxxeddash == 1 or state == states.ghost or state == states.tumble or state == states.ratmountbounce or state == states.ratmountattack or state == states.handstandjump or state == states.barrelslide or (state == states.grab && sprite_index == spr_swingding && swingdingdash <= 0) or (state == states.punch && (sprite_index == spr_player_breakdanceuppercut or sprite_index == spr_player_breakdanceuppercutend)) or state == states.freefall or state == states.lungeattack)
+else if (breakdance_speed >= 0.6 or mach4mode == 1 or boxxeddash == 1 or state == states.ghost or state == states.tumble or state == states.ratmountbounce or state == states.ratmountattack or state == states.handstandjump or state == states.barrelslide or (state == states.grab && sprite_index == spr_swingding && swingdingdash <= 0) or (state == states.punch && (sprite_index == spr_uppercutbreak or sprite_index == spr_uppercutbreakend)) or state == states.freefall or state == states.lungeattack)
 {
 	if (visible && (!(place_meeting(x, y, obj_secretportal))) && (!(place_meeting(x, y, obj_secretportalstart))))
 	{

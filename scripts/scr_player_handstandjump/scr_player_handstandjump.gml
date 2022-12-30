@@ -56,7 +56,7 @@ function scr_player_handstandjump()
 		image_index = 0
 		vsp = -11
 		state = states.mach2
-		sprite_index = spr_player_longjump
+		sprite_index = spr_longjump
 	}
 	if (sprite_index == attackdash && (!grounded))
 	{

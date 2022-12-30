@@ -3,6 +3,7 @@ function scr_player_climbwall()
 	switch character
 	{
 		case "P":
+		case "I":
 			if (windingAnim < 200)
 				windingAnim++
 			move = (key_left + key_right)
@@ -21,7 +22,7 @@ function scr_player_climbwall()
 			if (vsp < -5)
 				sprite_index = spr_machclimbwall
 			else
-				sprite_index = spr_player_clingwall
+				sprite_index = spr_wallcling
 			if ((!key_attack) && (!skateboarding))
 			{
 				state = states.normal
@@ -71,7 +72,7 @@ function scr_player_climbwall()
 			}
 			if (wallspeed < 0 && place_meeting(x, (y + 12), obj_solid))
 				wallspeed = 0
-			if key_jump
+			if key_jump && (character == "P" or character == "I")
 			{
 				key_jump = 0
 				movespeed = 10

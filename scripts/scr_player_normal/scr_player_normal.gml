@@ -315,7 +315,7 @@ function state_player_normal()
 	{
 		state = states.punch
 		image_index = 0
-		sprite_index = spr_player_breakdanceuppercut
+		sprite_index = spr_uppercutbreak
 		vsp = -14
 		movespeed = hsp
 		particle_set_scale(particle.highjumpcloud2, xscale, 1)
@@ -324,6 +324,7 @@ function state_player_normal()
 	switch character
 	{
 		case "P":
+		case "I":
 			if (key_attack && state != states.handstandjump && (!(place_meeting((x + xscale), y, obj_solid))) && ((!(place_meeting(x, (y + 1), obj_iceblockslope))) or (!(place_meeting((x + (xscale * 5)), y, obj_solid)))) && (!global.kungfu))
 			{
 				sprite_index = spr_mach1

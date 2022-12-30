@@ -71,7 +71,7 @@ function scr_player_mach3()
 			image_index = 0
 			sprite_index = spr_mach3jump
 		}
-		if (character == "P")
+		if (character == "P" || character == "I")
 			vsp = -11
 		else
 			vsp = -13
@@ -114,7 +114,7 @@ function scr_player_mach3()
 		image_speed = 0.4
 	if key_jump
 		input_buffer_jump = 0
-	if (((!key_attack) && fightball == 0 && (!launched) && sprite_index != spr_dashpadmach && grounded && (character == "P" || character == "N")) || (character == "S" && (move == 0 || move != xscale) && grounded && fightball == 0))
+	if (((!key_attack) && fightball == 0 && (!launched) && sprite_index != spr_dashpadmach && grounded && (character == "P" || character == "N" || character == "I")) || (character == "S" && (move == 0 || move != xscale) && grounded && fightball == 0))
 	{
 		sprite_index = spr_machslidestart
 		scr_soundeffect(sfx_break)
@@ -122,7 +122,7 @@ function scr_player_mach3()
 		image_index = 0
 		launched = 0
 	}
-	if (move == (-xscale) && grounded && (!launched) && (character == "P" || character == "N") && fightball == 0 && sprite_index != spr_dashpadmach)
+	if (move == (-xscale) && grounded && (!launched) && (character == "P" || character == "N" || character == "I") && fightball == 0 && sprite_index != spr_dashpadmach)
 	{
 		scr_soundeffect(sfx_machslideboost)
 		sprite_index = spr_mach3boost
@@ -263,7 +263,7 @@ function scr_player_mach3()
 		image_speed = 0.4
 	else
 		image_speed = 0.4
-	if (key_up && fightball == 0 && character == "P" && grounded && sprite_index != spr_dashpadmach && (!(place_meeting(x, y, obj_dashpad))))
+	if (key_up && fightball == 0 && (character == "P" or character == "I") && grounded && sprite_index != spr_dashpadmach && (!(place_meeting(x, y, obj_dashpad))))
 	{
 		sprite_index = spr_superjumpprep
 		state = states.Sjumpprep

@@ -70,8 +70,8 @@ function scr_player_mach2()
 	}
 	if (floor(image_index) == (image_number - 1) && sprite_index == spr_mach1)
 		sprite_index = spr_mach
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_longjump)
-		sprite_index = spr_player_longjumpend
+	if (floor(image_index) == (image_number - 1) && sprite_index == spr_longjump)
+		sprite_index = spr_longjumpend
 	if (!grounded)
 		machpunchAnim = 0
 	if grounded
@@ -122,7 +122,7 @@ function scr_player_mach2()
 		sprite_index = spr_mach
 	if (floor(image_index) == (image_number - 1) && sprite_index == spr_suplexdash)
 		sprite_index = spr_mach
-	if ((!grounded) && sprite_index != spr_secondjump2 && sprite_index != spr_clownjump && sprite_index != spr_clownfall && sprite_index != spr_mach2jump && sprite_index != spr_mach2jump && sprite_index != spr_walljumpstart && sprite_index != spr_taunt && sprite_index != spr_player_Sjumpcancelstart && sprite_index != spr_walljumpend && sprite_index != spr_player_longjump && sprite_index != spr_player_longjumpend)
+	if ((!grounded) && sprite_index != spr_secondjump2 && sprite_index != spr_clownjump && sprite_index != spr_clownfall && sprite_index != spr_mach2jump && sprite_index != spr_mach2jump && sprite_index != spr_walljumpstart && sprite_index != spr_taunt && sprite_index != spr_player_Sjumpcancelstart && sprite_index != spr_walljumpend && sprite_index != spr_longjump && sprite_index != spr_longjumpend)
 	{
 		sprite_index = spr_secondjump1
 		if skateboarding

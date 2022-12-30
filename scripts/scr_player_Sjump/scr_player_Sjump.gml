@@ -11,7 +11,7 @@ function scr_player_Sjump()
 	crouchslideAnim = 1
 	crouchAnim = 0
 	machhitAnim = 0
-	if ((sprite_index == spr_superjump or sprite_index == spr_superspringplayer) && (character == "N" or character == "P"))
+	if ((sprite_index == spr_superjump or sprite_index == spr_superspringplayer) && (character == "N" or character == "P" or character == "I"))
 		vsp = sjumpvsp
 	sjumpvsp -= 0.1
 	if (character == "V" && image_index > 3)
@@ -50,13 +50,13 @@ function scr_player_Sjump()
 		state = states.Sjumpland
 		machhitAnim = 0
 	}
-	else if (key_slap2 && character == "P" && sprite_index != spr_superspringplayer && sprite_index != spr_Sjumpcancelstart)
+	else if (key_slap2 && (character == "P" or character == "I") && sprite_index != spr_superspringplayer && sprite_index != spr_Sjumpcancelstart)
 
 	{
 		image_index = 0
 		sprite_index = spr_Sjumpcancelstart
 	}
-	if (sprite_index == spr_Sjumpcancelstart)
+	if (sprite_index == spr_Sjumpcancelstart && (character == "P" or character == "I"))
 	{
 		vsp = 0
 		if (move != 0)

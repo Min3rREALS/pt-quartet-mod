@@ -1,1 +1,1 @@
-targetRoom = plage_beach2
+targetRoom = entrance_10

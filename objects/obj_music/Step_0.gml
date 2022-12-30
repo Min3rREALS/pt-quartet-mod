@@ -40,7 +40,7 @@ if (string_letters(room_get_name(room)) == "entrance")
 }
 if global.panic
 {
-    if (music != mu_pizzatime && music != mu_noiseescape && music != mu_chase && music != mu_industrialescape && music != mu_freefallingescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_dragonlair && music != mu_finalescape)
+    if (music != mu_pizzatime && music != mu_noiseescape && music != mu_philescape && music != mu_chase && music != mu_industrialescape && music != mu_freefallingescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_dragonlair && music != mu_finalescape)
     {
         music = mu_pizzatime
         audio_stop_sound(musicID)
@@ -50,6 +50,13 @@ if global.panic
         pillarmusicID = -4
         if (!obj_player.ispeppino)
             music = mu_noiseescape
+        audio_stop_sound(musicID)
+        musicID = scr_music(music)
+        if (pillarmusicID != -4)
+            audio_stop_sound(pillarmusicID)
+        pillarmusicID = -4
+        if obj_player.character == "I"
+            music = mu_philescape
         audio_stop_sound(musicID)
         musicID = scr_music(music)
         if (pillarmusicID != -4)

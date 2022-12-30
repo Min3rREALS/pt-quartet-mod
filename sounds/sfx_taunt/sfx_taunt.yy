@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_taunt",
-  "duration": 0.7,
+  "duration": 0.700952,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
