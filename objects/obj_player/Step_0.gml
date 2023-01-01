@@ -687,11 +687,12 @@ if (global.coop == true)
 	else if (!((obj_player2.state == states.punch or obj_player2.state == states.handstandjump)))
 		fightballadvantage = 0
 }
-if obj_player.character == "I"
+if obj_player
 {
-	global.attackstyle = 1
-		else
-	global.attackstyle = 0
+	if obj_player.character == "I"
+		global.attackstyle = 1
+	else
+		global.attackstyle = 0
 }
 if (state != states.pogo && state != states.backbreaker)
 {
