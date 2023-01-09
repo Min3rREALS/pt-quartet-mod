@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mu_bathroomsecret.mp3",
-  "duration": 71.75835,
+  "duration": 71.54938,
   "parent": {
     "name": "lost tower",
     "path": "folders/Sounds/Music/lost tower.yy",

@@ -1,0 +1,1 @@
+targetRoom = bathroom_6
