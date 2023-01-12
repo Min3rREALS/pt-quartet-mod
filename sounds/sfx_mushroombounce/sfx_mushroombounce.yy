@@ -17,7 +17,7 @@
   "soundFile": "sfx_mushroombounce.wav",
   "duration": 0.998186,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "Unsorted or unused",
+    "path": "folders/Sprites/Unsorted or unused.yy",
   },
 }

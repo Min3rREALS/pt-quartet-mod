@@ -17,7 +17,7 @@
   "soundFile": "sfx_waterspl.wav",
   "duration": 1.566621,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "Unsorted or unused",
+    "path": "folders/Sprites/Unsorted or unused.yy",
   },
 }

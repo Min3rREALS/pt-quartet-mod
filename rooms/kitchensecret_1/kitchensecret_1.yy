@@ -101,7 +101,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "Kitchen",
+    "path": "folders/Rooms/Arcade/Kitchen.yy",
   },
 }

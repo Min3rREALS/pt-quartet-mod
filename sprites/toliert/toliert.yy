@@ -67,7 +67,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "PT Quartet",
-    "path": "PT Quartet.yyp",
+    "name": "Unsorted or unused",
+    "path": "folders/Sprites/Unsorted or unused.yy",
   },
 }
