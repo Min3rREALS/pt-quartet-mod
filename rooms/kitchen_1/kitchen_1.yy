@@ -211,7 +211,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "kitchen",
-    "path": "folders/Rooms/lost tower/kitchen.yy",
+    "name": "Kitchen",
+    "path": "folders/Rooms/Arcade/Kitchen.yy",
   },
 }

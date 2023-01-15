@@ -83,6 +83,33 @@ room_arr = [
 	[pinball_1, mu_saloon, mu_saloonsecret, false], 
 	[pinball_11, mu_pinball, mu_pinballsecret, true], 
 	[kitchen_1, mu_freefalling, mu_medievalsecret, false], 
+	[music_1, mu_music, mu_medievalsecret, false], 
 	[circus_1, mu_circus, mu_medievalsecret, false], 
 
 ]
+if (string_letters(room_get_name(room)) == "entrance")
+{
+	if (!obj_player.ispeppino)
+	{
+        if (!audio_is_playing(mu_noiseentrance))
+        {
+            music = mu_noiseentrance
+			audio_stop_sound(musicID)
+			musicID = scr_music(music)
+            pausedmusic = mu_noiseentrance
+		}
+	}
+}
+if (global.panic && string_letters(room_get_name(room)) == "entrance")
+{
+	if (!obj_player.ispeppino)
+	{
+        if (!audio_is_playing(mu_noiseescape))
+        {
+            music = mu_noiseentrance
+			audio_stop_sound(musicID)
+			musicID = scr_music(music)
+            pausedmusic = mu_noiseescape
+		}
+	}
+}

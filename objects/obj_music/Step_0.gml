@@ -25,19 +25,6 @@ if (prevpillar_on_camera != pillar_on_camera)
 		audio_sound_gain(musicID, (0.6 * global.option_music_volume), 2000)
 	}
 }
-if (string_letters(room_get_name(room)) == "entrance")
-{
-	if (!obj_player.ispeppino)
-	{
-        if (!audio_is_playing(mu_noiseentrance))
-        {
-            music = mu_noiseentrance
-			audio_stop_sound(musicID)
-			musicID = scr_music(music)
-            pausedmusic = mu_noiseentrance
-		}
-	}
-}
 if global.panic
 {
     if (music != mu_pizzatime && music != mu_noiseescape && music != mu_philescape && music != mu_chase && music != mu_industrialescape && music != mu_freefallingescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_dragonlair && music != mu_finalescape)
