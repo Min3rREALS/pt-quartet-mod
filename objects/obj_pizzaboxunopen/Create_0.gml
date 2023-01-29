@@ -3,3 +3,4 @@ content = obj_pizzakinshroom
 if (obj_player.character == "S")
 	instance_destroy()
 depth = 104
+scr_sound(sfx_toppinhelp)
