@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_dungeon",
-  "duration": 212.089,
+  "soundFile": "mu_dungeon.wav",
+  "duration": 214.0768,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

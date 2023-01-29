@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_streetchinatown.mp3",
-  "duration": 190.3804,
+  "soundFile": "mu_streetchinatown.wav",
+  "duration": 190.22366,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

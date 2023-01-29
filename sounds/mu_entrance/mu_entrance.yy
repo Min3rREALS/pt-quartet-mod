@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_entrance",
-  "duration": 217.849,
+  "soundFile": "mu_entrance.wav",
+  "duration": 220.94366,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

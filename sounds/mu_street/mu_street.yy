@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_street.mp3",
-  "duration": 160.51,
+  "soundFile": "mu_street.wav",
+  "duration": 161.48898,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_industrialproduction.mp3",
-  "duration": 128.10449,
+  "soundFile": "mu_industrialproduction.wav",
+  "duration": 135.7061,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

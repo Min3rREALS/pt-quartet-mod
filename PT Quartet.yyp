@@ -4642,6 +4642,7 @@
     {"id":{"name":"floor4_room0","path":"rooms/floor4_room0/floor4_room0.yy",},"order":0,},
     {"id":{"name":"floor4_room1","path":"rooms/floor4_room1/floor4_room1.yy",},"order":1,},
     {"id":{"name":"floor4_room2","path":"rooms/floor4_room2/floor4_room2.yy",},"order":2,},
+    {"id":{"name":"mu_forestyeah","path":"sounds/mu_forestyeah/mu_forestyeah.yy",},"order":9,},
     {"id":{"name":"floor4_room3","path":"rooms/floor4_room3/floor4_room3.yy",},"order":3,},
     {"id":{"name":"floor4_room4","path":"rooms/floor4_room4/floor4_room4.yy",},"order":4,},
     {"id":{"name":"floor4_room5","path":"rooms/floor4_room5/floor4_room5.yy",},"order":5,},

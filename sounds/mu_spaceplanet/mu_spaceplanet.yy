@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_spaceplanet.mp3",
-  "duration": 322.71674,
+  "soundFile": "mu_spaceplanet.wav",
+  "duration": 117.333336,
   "parent": {
     "name": "escape",
     "path": "folders/Sounds/Music/escape.yy",

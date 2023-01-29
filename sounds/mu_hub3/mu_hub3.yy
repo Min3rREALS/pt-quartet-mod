@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_hub3.mp3",
-  "duration": 102.264,
+  "soundFile": "mu_hub3.wav",
+  "duration": 157.89473,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
