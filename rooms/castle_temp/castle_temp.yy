@@ -21,7 +21,7 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_stillH1","spriteId":{"name":"bg_castle3","path":"sprites/bg_castle3/bg_castle3.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":20.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/badland_treasure/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/castle_temp/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [],
   "inheritCreationOrder": false,

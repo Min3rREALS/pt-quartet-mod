@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_forestyeah.mp3",
-  "duration": 222.0147,
+  "soundFile": "mu_forestyeah.wav",
+  "duration": 165.18675,
   "parent": {
     "name": "lost tower",
     "path": "folders/Sounds/Music/lost tower.yy",

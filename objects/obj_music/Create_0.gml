@@ -86,6 +86,8 @@ room_arr = [
 	[pinball_11, mu_pinball, mu_pinballsecret, true], 
 	[kitchen_1, mu_freefalling, mu_medievalsecret, false], 
 	[music_1, mu_music, mu_medievalsecret, false], 
+	[castle_1, mu_forestyeah, mu_forestsecret, false], 
+	[castle_3, mu_mansion, mu_medievalsecret, false], 
 	[circus_1, mu_circus, mu_medievalsecret, false], 
 
 ]
