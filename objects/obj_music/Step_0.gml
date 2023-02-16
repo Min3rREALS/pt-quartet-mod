@@ -92,13 +92,23 @@ if global.panic
             audio_stop_sound(pillarmusicID)
         pillarmusicID = -4
     }
-    else if global.lap and (music != mu_chase)
+    else if global.lap
     {
-        music = mu_chase
-        audio_stop_sound(musicID)
-        musicID = scr_music(music)
-        if (pillarmusicID != -4)
-            audio_stop_sound(pillarmusicID)
-        pillarmusicID = -4
+		if (music != mu_chase && music != mu_philchase)
+		{
+			music = mu_chase
+			audio_stop_sound(musicID)
+			musicID = scr_music(music)
+			if (pillarmusicID != -4)
+				audio_stop_sound(pillarmusicID)
+			pillarmusicID = -4
+			if obj_player.character == "I"
+				music = mu_philchase
+			audio_stop_sound(musicID)
+			musicID = scr_music(music)
+			if (pillarmusicID != -4)
+				audio_stop_sound(pillarmusicID)
+			pillarmusicID = -4
+		}
     }
 }

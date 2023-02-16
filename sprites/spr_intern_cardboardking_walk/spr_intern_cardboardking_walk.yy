@@ -81,7 +81,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Phil transfo",
-    "path": "folders/Sprites/Player/Phil/Phil transfo.yy",
+    "name": "knight",
+    "path": "folders/Sprites/Player/Phil/Phil transfo/knight.yy",
   },
 }

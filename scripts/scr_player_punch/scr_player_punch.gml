@@ -37,6 +37,7 @@ function scr_player_punch()
 		switch character
 		{
 			case "P":
+			case "I":
 				move = (key_left + key_right)
 				landAnim = 1
 				jumpstop = 0

@@ -690,7 +690,7 @@ if (global.coop == true)
 if obj_player
 {
 	if obj_player.character == "I"
-		global.attackstyle = 3
+		global.attackstyle = 1
 	else
 		global.attackstyle = 0
 }

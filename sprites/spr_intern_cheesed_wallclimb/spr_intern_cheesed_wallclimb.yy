@@ -83,7 +83,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Phil transfo",
-    "path": "folders/Sprites/Player/Phil/Phil transfo.yy",
+    "name": "cheese and cheeseball",
+    "path": "folders/Sprites/Player/Phil/Phil transfo/cheese and cheeseball.yy",
   },
 }

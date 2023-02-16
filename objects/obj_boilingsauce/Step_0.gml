@@ -16,7 +16,12 @@ with (playerid)
 		sprite_index = spr_fireass
 		image_index = 0
 		movespeed = hsp
-		if (!audio_is_playing(sfx_scream5))
-			scr_soundeffect(sfx_scream5)
-	}
+		if character == "I" {
+			if (!audio_is_playing(sfx_playerIscream))
+				scr_soundeffect(sfx_playerIscream)
+		} else {
+			if (!audio_is_playing(sfx_scream5))
+				scr_soundeffect(sfx_scream5)
+		}				
+	}			
 }

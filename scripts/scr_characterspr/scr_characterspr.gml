@@ -936,8 +936,8 @@ function scr_characterspr()
 		spr_bombpepintro = spr_bombpep_intro
 		spr_bombpeprunabouttoexplode = spr_bombpep_runabouttoexplode
 		spr_bombpepend = spr_bombpep_end
-		spr_fireass = spr_player_fireass
-		spr_fireassground = spr_player_fireassground
+		spr_fireass = spr_intern_fireass
+		spr_fireassground = spr_intern_fireassground
 		spr_fireassend = spr_player_fireassend
 		spr_tumblestart = spr_player_tumblestart
 		spr_tumbleend = spr_player_tumbleend
@@ -1054,8 +1054,8 @@ function scr_characterspr()
 		spr_superspringplayer = spr_player_presentbox
 		spr_suplexcancel = spr_player_suplexcancel
 		spr_mortthrow = spr_player_mortthrow
-		spr_Sjumpcancelstart = spr_player_Sjumpcancelstart
-		spr_Sjumpcancel = spr_player_Sjumpcancel
+		spr_Sjumpcancelstart = spr_intern_superjump_cancel
+		spr_Sjumpcancel = spr_intern_superjump_cancel_claw
 		spr_exprmach3 = spr_tv_exprmach3
 		spr_exprmach4 = spr_tv_exprmach4
 		spr_uppercutbreak = spr_playerI_uppercut

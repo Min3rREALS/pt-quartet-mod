@@ -158,6 +158,13 @@ switch state
 			if (spr > -1)
 				idlespr = spr
 		}
+		if obj_player.character == "I"
+		{
+			var spr = sprite_get_name(idlespr)
+			spr = asset_get_index(concat(spr, "I"))
+			if (spr > -1)
+				idlespr = spr
+		}
 		if (!_transfo)
 		{
 			with (obj_player1)
@@ -260,11 +267,25 @@ switch state
 						if (spr > -1)
 							tvsprite = spr
 					}
+					if obj_player.character == "I"
+					{
+						spr = sprite_get_name(tvsprite)
+						spr = asset_get_index(concat(spr, "I"))
+						if (spr > -1)
+							tvsprite = spr
+					}
 				}
 				else
 				{
 					tvsprite = b[2]
 					if (!obj_player1.ispeppino)
+					{
+						spr = sprite_get_name(tvsprite)
+						spr = asset_get_index(concat(spr, "N"))
+						if (spr > -1)
+							tvsprite = spr
+					}
+					if obj_player.character == "I"
 					{
 						spr = sprite_get_name(tvsprite)
 						spr = asset_get_index(concat(spr, "N"))
