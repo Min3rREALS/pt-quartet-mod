@@ -4,7 +4,7 @@
   "name": "mu_chase",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.75,
+  "volume": 0.85,
   "preload": true,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mu_chase.mp3",
-  "duration": 156.10776,
+  "duration": 145.4498,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

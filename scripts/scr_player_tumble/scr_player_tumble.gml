@@ -37,12 +37,12 @@ function scr_player_tumble()
 	if (sprite_index == spr_mach2jump && grounded)
 	{
 		image_index = 0
-		sprite_index = spr_player_machroll
+		sprite_index = spr_machroll
 	}
 	if (sprite_index == spr_player_mach2jump && grounded)
 	{
 		image_index = 0
-		sprite_index = spr_player_machroll
+		sprite_index = spr_machroll
 	}
 	if (sprite_index == spr_crouchslip && (!grounded))
 		sprite_index = spr_player_jumpdive2

@@ -870,7 +870,7 @@ function scr_characterspr()
 		spr_crouchslide = spr_player_crouchslide
 		spr_crouch = spr_player_crouch
 		spr_bump = spr_player_bump
-		spr_victory = spr_player_victory
+		spr_victory = spr_intern_doorkey_enter
 		spr_hurt = spr_player_hurt
 		spr_climbwall = spr_player_climbwall
 		spr_grab = spr_player_grab
@@ -881,7 +881,7 @@ function scr_characterspr()
 		spr_machpunch1 = spr_player_machpunch1
 		spr_machpunch2 = spr_player_machpunch2
 		spr_hurtjump = spr_player_jumphurt
-		spr_entergate = spr_player_entergate
+		spr_entergate = spr_intern_entersomething
 		spr_gottreasure = spr_player_gottreasure
 		spr_bossintro = spr_player_bossintro
 		spr_hurtidle = spr_player_hurtidle
@@ -906,8 +906,8 @@ function scr_characterspr()
 		spr_mach3jump = spr_playerI_mach3jump
 		spr_mach4 = spr_playerI_mach3
 		spr_machclimbwall = spr_playerI_wallclimb
-		spr_dive = spr_player_dive
-		spr_machroll = spr_player_backslide
+		spr_dive = spr_intern_dive
+		spr_machroll = spr_intern_roll
 		spr_hitwall = spr_player_mach3hitwall
 		spr_superjumpland = spr_player_superjumpland
 		spr_walljumpstart = spr_player_walljumpstart
@@ -960,7 +960,7 @@ function scr_characterspr()
 		spr_suplexdashjumpstart = spr_intern_grab_air_start
 		spr_suplexdashjump = spr_intern_grab_air_loop
 		spr_shotgunsuplexdash = spr_shotgun_suplexdash
-		spr_rollgetup = spr_player_rollgetup
+		spr_rollgetup = spr_intern_roll_getup
 		spr_swingding = spr_player_swingding
 		spr_swingdingend = spr_player_swingdingend
 		spr_haulingjump = spr_player_haulingjump
@@ -1038,16 +1038,16 @@ function scr_characterspr()
 		spr_cheesepepstickceiling = spr_cheesepep_stickceilling
 		spr_cheesepepstickfloor = spr_cheesepep_stick
 		spr_rocketstart = spr_player_rocketstart
-		spr_rocket = spr_player_rocket
+		spr_rocket = spr_intern_soda_fly
 		spr_rockethitwall = spr_player_rockethitwall
 		spr_slipbanan1 = spr_player_slipbanan1
 		spr_slipbanan2 = spr_player_slipbanan2
 		spr_rageidle = spr_player_rageidle
-		spr_ragemove = spr_player_ragemove
+		spr_ragemove = spr_intern_idle_hot
 		spr_parry1 = spr_playerI_parry1
 		spr_parry2 = spr_playerI_parry2
 		spr_parry3 = spr_playerI_parry3
-		spr_dead = spr_player_deathend
+		spr_dead = spr_intern_dead
 		spr_suplexbump = spr_player_suplexbump
 		spr_grind = spr_player_grind
 		spr_suplexland = spr_player_backflip
