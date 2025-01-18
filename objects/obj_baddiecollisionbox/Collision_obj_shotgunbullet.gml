@@ -36,7 +36,7 @@ if (instance_exists(baddieID) && baddieID.invtime == 0 && baddieID.state != stat
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 		baddieID.hitvsp = -4

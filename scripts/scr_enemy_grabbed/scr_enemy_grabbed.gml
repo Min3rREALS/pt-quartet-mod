@@ -57,7 +57,7 @@ function scr_enemy_grabbed()
 			flash = 1
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 		}
@@ -99,7 +99,7 @@ function scr_enemy_grabbed()
 			flash = 1
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 		}
@@ -136,7 +136,7 @@ function scr_enemy_grabbed()
 			flash = 1
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 		}
@@ -170,7 +170,7 @@ function scr_enemy_grabbed()
 			instance_create(x, y, obj_baddiegibs)
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 			with (_obj_player)
@@ -233,7 +233,7 @@ function scr_enemy_grabbed()
 			flash = 1
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 			check_grabbed_solid(_obj_player)
@@ -337,7 +337,7 @@ function scr_enemy_grabbed()
 			instance_create(x, y, obj_baddiegibs)
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 			with (_obj_player)

@@ -93,7 +93,7 @@ with (instance_place(x, y, obj_player))
 			{
 				with (obj_camera)
 				{
-					shake_mag = 20
+					shake_mag = 120
 					shake_mag_acc = (40 / room_speed)
 				}
 				global.boxhp -= 1
@@ -116,7 +116,7 @@ with (instance_place(x, y, obj_player))
 			{
 				with (obj_camera)
 				{
-					shake_mag = 20
+					shake_mag = 120
 					shake_mag_acc = (40 / room_speed)
 				}
 				scr_soundeffect(sfx_killenemy)
@@ -139,7 +139,7 @@ if (place_meeting(x, y, obj_baddie) && obj_baddie.thrown == true && sprite_index
 	{
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		global.boxhp -= 1
@@ -162,7 +162,7 @@ if (place_meeting(x, y, obj_baddie) && obj_baddie.thrown == true && sprite_index
 	{
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		scr_soundeffect(sfx_killenemy)
@@ -183,7 +183,7 @@ if (place_meeting(x, y, obj_shotgunbullet) && sprite_index != spr_present)
 	{
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		global.boxhp -= 1
@@ -206,7 +206,7 @@ if (place_meeting(x, y, obj_shotgunbullet) && sprite_index != spr_present)
 	{
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		scr_soundeffect(sfx_killenemy)

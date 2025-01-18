@@ -76,7 +76,7 @@ function SUPER_player_destroy(argument0)
 		instance_create(other.x, other.y, obj_parryeffect)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}
@@ -134,7 +134,7 @@ function SUPER_boss_destroy(argument0)
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}
@@ -204,7 +204,7 @@ function SUPER_boss_hurt(argument0, argument1)
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}
@@ -242,7 +242,7 @@ function SUPER_boss_hurt_noplayer(argument0)
 	instance_create(x, y, obj_baddiegibs)
 	with (obj_camera)
 	{
-		shake_mag = 3
+		shake_mag = 13
 		shake_mag_acc = (3 / room_speed)
 	}
 	exit;
@@ -296,7 +296,7 @@ function SUPER_player_hurt(argument0, argument1)
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}

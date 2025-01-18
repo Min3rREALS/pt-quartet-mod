@@ -63,14 +63,14 @@ function scr_player_backbreaker()
 					instance_create(x, y, obj_baddiegibs)
 					with (obj_camera)
 					{
-						shake_mag = 3
+						shake_mag = 13
 						shake_mag_acc = (3 / room_speed)
 					}
 				}
 			}
 			with (obj_camera)
 			{
-				shake_mag = 10
+				shake_mag = 110
 				shake_mag_acc = (30 / room_speed)
 			}
 			supercharge = 0

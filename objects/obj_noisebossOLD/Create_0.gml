@@ -185,7 +185,7 @@ function player_hurt(argument0, argument1)
 			stunned = (hitstate == states.skateboard ? 30 : 70)
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 			hitstate = states.stun

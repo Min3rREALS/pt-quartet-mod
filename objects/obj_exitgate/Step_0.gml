@@ -48,7 +48,7 @@ if (drop && global.panic)
 				handsprite = spr_grabbiehand_idle
 				with (obj_camera)
 				{
-					shake_mag = 5
+					shake_mag = 15
 					shake_mag_acc = (3 / room_speed)
 				}
 			}

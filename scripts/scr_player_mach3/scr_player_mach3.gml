@@ -19,9 +19,9 @@ function scr_player_mach3()
 		if (movespeed < 20)
 		{
 			if (mach4mode == 0)
-				movespeed += 0.025
+				movespeed += 10
 			else
-				movespeed += 0.1
+				movespeed += 5
 		}
 	}
 	mach2 = 100
@@ -72,18 +72,18 @@ function scr_player_mach3()
 			sprite_index = spr_mach3jump
 		}
 		if (character == "P" || character == "I")
-			vsp = -11
+			vsp = -30
 		else
-			vsp = -13
+			vsp = -28
 	}
 	if (fightball == 0)
 	{
 		if (sprite_index == spr_mach3jump && floor(image_index) == (image_number - 1))
-			sprite_index = spr_mach4
+			sprite_index = spr_player_mach3
 		if (floor(image_index) == (image_number - 1) && (sprite_index == spr_rollgetup || sprite_index == spr_mach3hit || sprite_index == spr_dashpadmach))
-			sprite_index = spr_mach4
+			sprite_index = spr_player_mach3
 		if (sprite_index == spr_mach2jump && grounded && vsp > 0)
-			sprite_index = spr_mach4
+			sprite_index = spr_player_mach3
 		if (movespeed > 16 && sprite_index != spr_crazyrun && sprite_index != spr_player_Sjumpcancelstart && sprite_index != spr_taunt)
 		{
 			mach4mode = 1
@@ -96,7 +96,7 @@ function scr_player_mach3()
 			}
 		}
 		else if (movespeed <= 16 && sprite_index == spr_crazyrun)
-			sprite_index = spr_mach4
+			sprite_index = spr_player_mach3
 	}
 	if (sprite_index == spr_crazyrun && (!instance_exists(crazyruneffectid)))
 	{

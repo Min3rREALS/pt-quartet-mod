@@ -36,7 +36,7 @@ function scr_player_slam()
 		image_speed = 0.35
 		with (obj_camera)
 		{
-			shake_mag = 10
+			shake_mag = 110
 			shake_mag_acc = (30 / room_speed)
 		}
 		with (obj_baddie)

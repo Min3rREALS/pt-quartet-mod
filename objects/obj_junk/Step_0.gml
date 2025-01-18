@@ -118,7 +118,7 @@ if (grabbed == 1 && (!ratgrabbed))
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}
@@ -145,7 +145,7 @@ if (grabbed == 1 && (!ratgrabbed))
 		flash = 1
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}
@@ -243,7 +243,7 @@ if (place_meeting(x, y, obj_swordhitbox) && thrown == false)
 	instance_create(x, y, obj_baddiegibs)
 	with (obj_camera)
 	{
-		shake_mag = 3
+		shake_mag = 13
 		shake_mag_acc = (3 / room_speed)
 	}
 	state = states.hurt

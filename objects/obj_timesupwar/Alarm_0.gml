@@ -18,7 +18,7 @@ repeat round(explosionsnum)
 scr_soundeffect(sfx_explosion)
 with (obj_camera)
 {
-	shake_mag = 30
+	shake_mag = 130
 	shake_mag_acc = (30 / room_speed)
 }
 explosionsnum += 0.5

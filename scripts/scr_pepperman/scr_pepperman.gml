@@ -88,7 +88,7 @@ function scr_pepperman_freefall()
 		{
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (5 / room_speed)
 			}
 		}

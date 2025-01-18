@@ -20,7 +20,7 @@ function scr_player_superslam()
 		image_index = 0
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		hsp = 0

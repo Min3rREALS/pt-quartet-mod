@@ -86,7 +86,7 @@ function scr_player_freefall()
 			jumpstop = 0
 			with (obj_camera)
 			{
-				shake_mag = 5
+				shake_mag = 15
 				shake_mag_acc = (15 / room_speed)
 			}
 			if (freefallsmash >= 10)
@@ -106,7 +106,7 @@ function scr_player_freefall()
 				}
 				with (obj_camera)
 				{
-					shake_mag = 10
+					shake_mag = 110
 					shake_mag_acc = (30 / room_speed)
 				}
 				combo = 0

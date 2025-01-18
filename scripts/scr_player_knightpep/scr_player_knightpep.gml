@@ -44,7 +44,7 @@ function scr_player_knightpep()
 		movespeed = 0
 	}
 	if (sprite_index == spr_knightpep_downtrust && vsp >= 0)
-		vsp += 0.5
+		vsp += 30
 	if key_jump
 		input_buffer_jump = 0
 	if (grounded && vsp > 0)
@@ -92,7 +92,7 @@ function scr_player_knightpep()
 		}
 		with (obj_camera)
 		{
-			shake_mag = 10
+			shake_mag = 110
 			shake_mag_acc = (30 / room_speed)
 		}
 		combo = 0

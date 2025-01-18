@@ -33,7 +33,6 @@ function state_boss_walk(argument0)
 		{
 			if (attack_cooldown <= 0)
 			{
-				argument0()
 				if (object_index != obj_mrstickboss)
 					image_xscale = (targetplayer.x != x ? sign((targetplayer.x - x)) : targetxscale)
 			}

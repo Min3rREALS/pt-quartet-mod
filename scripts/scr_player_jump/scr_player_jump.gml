@@ -16,11 +16,11 @@ function state_player_jump()
 	if (dir != xscale)
 	{
 		dir = xscale
-		movespeed = 2
+		movespeed = 8
 		facehurt = 0
 	}
 	if (move != xscale)
-		movespeed = 2
+		movespeed = 9
 	move = (key_left + key_right)
 	if (movespeed == 0)
 		momemtum = 0
@@ -33,9 +33,9 @@ function state_player_jump()
 	{
 		xscale = move
 		if (movespeed < 8)
-			movespeed += 0.5
+			movespeed += 50
 		else if (floor(movespeed) == 8)
-			movespeed = 6
+			movespeed = 22
 		if (scr_solid((x + xscale), y) && move == xscale)
 			movespeed = 0
 	}
@@ -274,7 +274,7 @@ function state_player_jump()
 		}
 		with (obj_camera)
 		{
-			shake_mag = 10
+			shake_mag = 110
 			shake_mag_acc = (30 / room_speed)
 		}
 	}
@@ -321,7 +321,7 @@ function state_player_jump()
 				mort = 1
 				with (obj_camera)
 				{
-					shake_mag = 3
+					shake_mag = 13
 					shake_mag_acc = (3 / room_speed)
 				}
 			}
@@ -334,8 +334,8 @@ function state_player_jump()
 				shoot = 1
 				with (obj_camera)
 				{
-					shake_mag = 3
-					shake_mag = (3 / room_speed)
+					shake_mag = 13
+					shake_mag = 1(3 / room_speed)
 				}
 				if ispeppino
 				{

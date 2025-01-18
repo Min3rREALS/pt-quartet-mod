@@ -68,7 +68,7 @@ if (grabbed == 1)
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}
@@ -96,7 +96,7 @@ if (grabbed == 1)
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}
@@ -125,7 +125,7 @@ if (grabbed == 1)
 		flash = 1
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}

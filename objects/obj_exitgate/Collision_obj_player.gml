@@ -14,7 +14,7 @@ if (image_index == 1 && global.panic == false && room != war_13)
 				image_index = 0
 				with (obj_camera)
 				{
-					shake_mag = 10
+					shake_mag = 110
 					shake_mag_acc = (30 / room_speed)
 				}
 			}
@@ -27,7 +27,7 @@ if (image_index == 1 && global.panic == false && room != war_13)
 					image_index = 0
 					with (obj_camera)
 					{
-						shake_mag = 10
+						shake_mag = 110
 						shake_mag_acc = (30 / room_speed)
 					}
 				}

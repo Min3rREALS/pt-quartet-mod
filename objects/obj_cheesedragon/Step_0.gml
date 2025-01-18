@@ -21,7 +21,7 @@ if (attackcycle == 0 && attacked == 0 && floor(image_index) == 13 && sprite_inde
 	scr_soundeffect(sfx_groundpound)
 	with (obj_camera)
 	{
-		shake_mag = 20
+		shake_mag = 120
 		shake_mag_acc = (60 / room_speed)
 	}
 	instance_create((playerid.x + -250), -10, obj_bowlingball)

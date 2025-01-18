@@ -314,7 +314,7 @@ function boss_pepperman_freefall()
 	{
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 		state = states.freefallland
@@ -357,7 +357,7 @@ function boss_pepperman_shoulderbash()
 	{
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 		state = states.stun
@@ -423,7 +423,7 @@ function boss_pepperman_supershoulderbash()
 	{
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 		state = states.stun
@@ -460,7 +460,7 @@ function boss_pepperman_shoulder()
 	{
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 		if (phase >= 5)
@@ -556,7 +556,7 @@ function boss_pepperman_fistmatch()
 		scr_soundeffect(sfx_killingblow)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 		instance_create(other.x, other.y, obj_parryeffect)
@@ -585,7 +585,7 @@ function boss_pepperman_fistmatch()
 					scr_soundeffect(sfx_killingblow)
 					with (obj_camera)
 					{
-						shake_mag = 3
+						shake_mag = 13
 						shake_mag_acc = (3 / room_speed)
 					}
 					sprite_index = choose(spr_suplexmash1, spr_suplexmash2, spr_suplexmash3, spr_suplexmash4)

@@ -24,7 +24,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 	instance_create(x1, y1, obj_bangeffect)
 	with (obj_camera)
 	{
-		shake_mag = 3
+		shake_mag = 13
 		shake_mag_acc = (3 / room_speed)
 	}
 	with (obj_player1)

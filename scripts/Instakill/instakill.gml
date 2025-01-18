@@ -96,7 +96,7 @@ function Instakill()
 		instance_create(x, y, obj_baddiegibs)
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 		if (state != states.mach2 && state != states.tumble)

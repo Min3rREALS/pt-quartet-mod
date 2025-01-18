@@ -76,7 +76,7 @@ function scr_player_rocket()
 		scr_soundeffect(sfx_bumpwall)
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		hsp = 0

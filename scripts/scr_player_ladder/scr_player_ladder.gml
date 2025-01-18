@@ -15,7 +15,7 @@ function scr_player_ladder()
 	if (key_up && hooked == 0)
 	{
 		sprite_index = spr_laddermove
-		vsp = -6
+		vsp = -80
 		image_speed = 0.35
 	}
 	else if (key_down && hooked == 0)

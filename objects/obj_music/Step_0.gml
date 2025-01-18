@@ -29,7 +29,7 @@ if global.panic
 {
     if (music != mu_pizzatime && music != mu_noiseescape && music != mu_philescape && music != mu_chase && music != mu_industrialescape && music != mu_freefallingescape && music != mu_sewerescape && music != mu_freezerescape && music != mu_medievalescape && music != mu_snickchallengeend && music != mu_dragonlair && music != mu_finalescape)
     {
-        music = mu_pizzatime
+        music = mu_sewerescape
         audio_stop_sound(musicID)
         musicID = scr_music(music)
         if (pillarmusicID != -4)

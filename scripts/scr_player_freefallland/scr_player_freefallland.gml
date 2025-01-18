@@ -27,12 +27,12 @@ function scr_player_freefallland()
 	if key_jump2
 			{
 				state = states.jump
-				vsp = -14;
+				vsp = -80;
 				jumpstop = true;
 				
 				image_index = 0;
 				if character == "P"
-					sprite_index = spr_player_groundpoundjump;
+					sprite_index = spr_player_handgesture1;
 	else
 					sprite_index = spr_machfreefall;
 			}

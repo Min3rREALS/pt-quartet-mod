@@ -32,7 +32,7 @@ switch state
 			state = states.normal
 			with (obj_camera)
 			{
-				shake_mag = 5
+				shake_mag = 15
 				shake_mag_acc = (5 / room_speed)
 			}
 			scr_soundeffect(sfx_groundpound)

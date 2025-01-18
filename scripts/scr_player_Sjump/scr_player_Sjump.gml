@@ -33,7 +33,7 @@ function scr_player_Sjump()
 			sprite_index = spr_superjumpland
 		with (obj_camera)
 		{
-			shake_mag = 10
+			shake_mag = 110
 			shake_mag_acc = (30 / room_speed)
 		}
 		with (obj_baddie)
@@ -63,8 +63,8 @@ function scr_player_Sjump()
 			xscale = move
 		if (floor(image_index) == (image_number - 1))
 		{
-			vsp = -5
-			movespeed = 12
+			vsp = -1
+			movespeed = 4
 			image_index = 0
 			sprite_index = spr_Sjumpcancel
 			scr_soundeffect(sfx_suplexdash)

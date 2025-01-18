@@ -32,7 +32,7 @@ function scr_player_chainsawbump()
 		{
 			with (obj_camera)
 			{
-				shake_mag = 10
+				shake_mag = 110
 				shake_mag_acc = (30 / room_speed)
 			}
 			vsp = -6

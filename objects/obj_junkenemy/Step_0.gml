@@ -2,7 +2,7 @@ if grounded
 {
 	with (obj_camera)
 	{
-		shake_mag = 3
+		shake_mag = 13
 		shake_mag_acc = (3 / room_speed)
 	}
 	instance_create(x, y, obj_slapstar)

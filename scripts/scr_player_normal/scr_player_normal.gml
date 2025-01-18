@@ -49,9 +49,9 @@ function state_player_normal()
 	{
 		xscale = move
 		if (movespeed < 8)
-			movespeed += 0.5
+			movespeed += 0.1
 		else if (floor(movespeed) == 8)
-			movespeed = 6
+			movespeed = 0.5
 		if (movespeed < 3 && move != 0)
 			image_speed = 0.35
 		else if (movespeed > 3 && movespeed < 6)
@@ -247,7 +247,7 @@ function state_player_normal()
 			}
 			particle_set_scale(particle.highjumpcloud2, xscale, 1)
 			create_particle(x, y, particle.highjumpcloud2, 0)
-			vsp = -11
+			vsp = -1
 			state = states.jump
 			jumpAnim = 1
 			jumpstop = 0
@@ -316,7 +316,7 @@ function state_player_normal()
 		state = states.punch
 		image_index = 0
 		sprite_index = spr_uppercutbreak
-		vsp = -14
+		vsp = -50
 		movespeed = hsp
 		particle_set_scale(particle.highjumpcloud2, xscale, 1)
 		create_particle(x, y, particle.highjumpcloud2, 0)

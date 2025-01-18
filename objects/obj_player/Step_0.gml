@@ -954,7 +954,7 @@ if ((y > (room_height + 300) or y < -800) && (!(place_meeting(x, y, obj_vertical
 	visible = true
 	with (obj_camera)
 	{
-		shake_mag = 3
+		shake_mag = 13
 		shake_mag_acc = (3 / room_speed)
 	}
 	if (state == states.ghostpossess)

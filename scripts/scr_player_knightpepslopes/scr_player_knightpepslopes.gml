@@ -13,7 +13,7 @@ function scr_player_knightpepslopes()
 		input_buffer_jump = 0
 	if ((!key_jump2) && jumpstop == 0 && vsp < 0.5 && stompAnim == 0)
 	{
-		vsp /= 2
+		vsp /= 7
 		jumpstop = 1
 	}
 	if (grounded && vsp > 0)

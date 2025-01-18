@@ -114,12 +114,12 @@ if (!instance_exists(obj_ghostcollectibles))
 {
 	if ((global.panic == true && global.minutes < 1) or player.sprite_index == spr_player_timesup)
 	{
-		shake_mag = 2
+		shake_mag = 12
 		shake_mag_acc = (3 / room_speed)
 	}
 	else if (global.panic == true && basement == 0)
 	{
-		shake_mag = 2
+		shake_mag = 12
 		shake_mag_acc = (3 / room_speed)
 	}
 }
@@ -127,7 +127,7 @@ if (shake_mag > 0)
 {
 	shake_mag -= shake_mag_acc
 	if (shake_mag < 0)
-		shake_mag = 0
+		shake_mag = 10
 }
 detachedby = -1
 detach = 0

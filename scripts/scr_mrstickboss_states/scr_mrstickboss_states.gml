@@ -285,7 +285,7 @@ function boss_mrstick_springshoes()
 		sprite_index = spr_mrstick_hurt
 		with (obj_camera)
 		{
-			shake_mag = 3
+			shake_mag = 13
 			shake_mag_acc = (3 / room_speed)
 		}
 	}

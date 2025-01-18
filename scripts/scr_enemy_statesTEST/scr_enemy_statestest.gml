@@ -44,7 +44,7 @@ function scr_enemy_pummel()
 				scr_soundeffect(sfx_killingblow)
 				with (obj_camera)
 				{
-					shake_mag = 3
+					shake_mag = 13
 					shake_mag_acc = (3 / room_speed)
 				}
 			}
@@ -63,7 +63,7 @@ function scr_enemy_pummel()
 					scr_soundeffect(sfx_killingblow)
 					with (obj_camera)
 					{
-						shake_mag = 3
+						shake_mag = 13
 						shake_mag_acc = (3 / room_speed)
 					}
 					with (other)
@@ -90,7 +90,7 @@ function scr_enemy_pummel()
 					image_index = 0
 					with (obj_camera)
 					{
-						shake_mag = 3
+						shake_mag = 13
 						shake_mag_acc = (3 / room_speed)
 					}
 					instance_create(x, y, obj_highjumpcloud2)

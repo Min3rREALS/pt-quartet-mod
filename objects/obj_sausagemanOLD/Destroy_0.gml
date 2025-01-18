@@ -19,7 +19,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 			{
 				with (obj_camera)
 				{
-					shake_mag = 5
+					shake_mag = 15
 					shake_mag_acc = (20 / room_speed)
 				}
 				instance_create(x, y, obj_baddiegibs)
@@ -32,7 +32,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 			{
 				with (obj_camera)
 				{
-					shake_mag = 5
+					shake_mag = 15
 					shake_mag_acc = (20 / room_speed)
 				}
 				instance_create(x, y, obj_baddiegibs)
@@ -49,7 +49,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 				{
 					with (obj_camera)
 					{
-						shake_mag = 5
+						shake_mag = 15
 						shake_mag_acc = (20 / room_speed)
 					}
 					instance_create(x, y, obj_baddiegibs)
@@ -67,7 +67,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 				{
 					with (obj_camera)
 					{
-						shake_mag = 5
+						shake_mag = 15
 						shake_mag_acc = (20 / room_speed)
 					}
 					instance_create(x, y, obj_baddiegibs)
@@ -87,7 +87,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 				{
 					with (obj_camera)
 					{
-						shake_mag = 20
+						shake_mag = 120
 						shake_mag_acc = (40 / room_speed)
 					}
 					instance_create(x, y, obj_baddiegibs)
@@ -108,7 +108,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 				{
 					with (obj_camera)
 					{
-						shake_mag = 20
+						shake_mag = 120
 						shake_mag_acc = (40 / room_speed)
 					}
 					instance_create(x, y, obj_baddiegibs)

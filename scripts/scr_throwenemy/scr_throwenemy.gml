@@ -13,7 +13,7 @@ function scr_throwenemy()
 			instance_create(x, y, obj_baddiegibs)
 			with (obj_camera)
 			{
-				shake_mag = 3
+				shake_mag = 13
 				shake_mag_acc = (3 / room_speed)
 			}
 			alarm[3] = 3

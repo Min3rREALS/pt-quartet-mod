@@ -3,13 +3,13 @@ function scr_characterspr()
 	if (character == "P" && ispeppino)
 	{
 		spr_idle = spr_player_idle
-		spr_move = spr_player_move
+		spr_move = spr_player_grabbingmove
 		spr_crawl = spr_player_crawl
 		spr_idle = spr_player_idle
-		spr_hurt = spr_player_hurt
-		spr_jump = spr_player_jump
+		spr_hurt = spr_player_taunt
+		spr_jump = spr_player_hanstandjump
 		spr_jump2 = spr_player_jump2
-		spr_fall = spr_player_fall
+		spr_fall = spr_player_jumpdive2
 		spr_fall2 = spr_player_fall2
 		spr_crouch = spr_player_crouch
 		spr_crouchjump = spr_player_crouchjump
@@ -128,7 +128,7 @@ function scr_characterspr()
 		spr_downpizzabox = spr_player_downpizzabox
 		spr_uppizzabox = spr_player_uppizzabox
 		spr_slipnslide = spr_player_slipnslide
-		spr_mach3boost = spr_player_machslideboost3
+		spr_mach3boost = spr_player_ghostend
 		spr_facehurtup = spr_player_facehurtup
 		spr_facehurt = spr_player_facehurt
 		spr_walljumpend = spr_player_walljumpend

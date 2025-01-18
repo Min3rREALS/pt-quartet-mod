@@ -39,7 +39,7 @@ function scr_player_machfreefall()
 	{
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		bounce = 0

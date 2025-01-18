@@ -136,7 +136,7 @@ function scr_player_bombpepup()
 			sprite_index = spr_superjumpland
 		with (obj_camera)
 		{
-			shake_mag = 10
+			shake_mag = 110
 			shake_mag_acc = (30 / room_speed)
 		}
 		with (obj_baddie)
@@ -160,7 +160,7 @@ function scr_player_bombpepup()
 		image_index = 0
 		with (obj_camera)
 		{
-			shake_mag = 10
+			shake_mag = 110
 			shake_mag_acc = (30 / room_speed)
 		}
 		with (obj_baddie)
@@ -202,7 +202,7 @@ function scr_player_bombpepside()
 		scr_soundeffect(sfx_bumpwall)
 		with (obj_camera)
 		{
-			shake_mag = 20
+			shake_mag = 120
 			shake_mag_acc = (40 / room_speed)
 		}
 		hsp = 0
